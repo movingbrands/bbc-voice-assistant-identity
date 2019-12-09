@@ -1,0 +1,34 @@
+{
+    "background": {
+        "color": "#FF2200",
+        "asset": {
+            "type": "video",
+            "props": {
+                "sources": []
+            }
+        }
+    },
+    "title": "Introduction",
+    "slug": "introduction",
+    "createdAt": "09-12-2019",
+    "lastEdited": "09-12-2019",
+    "children": [
+        {
+            "type": "section",
+            "children": [
+                {
+                    "type": "h1",
+                    "text": ""
+                },
+                {
+                    "type": "p",
+                    "text": "This is our subheading"
+                }
+            ]
+        },
+        {
+            "type": "article",
+            "children": []
+        }
+    ]
+}

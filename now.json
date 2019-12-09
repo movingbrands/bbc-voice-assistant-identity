@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "bbc-voice-id",
+  "public": false,
+  "alias": ["bbc-voice-id.now.sh", "bbc-voice-id.movingbrands.now.sh"],
+  "scope": "movingbrands",
+  "regions": ["all"],
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "builds": [
+    {
+      "src": "now-server.js",
+      "use": "@now/node",
+      "config": {
+        "includeFiles": ["storybook-static/**/*.js"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "now-server.js"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "ReithSans";
+  src: url("/fonts/ReithSans-Regular.woff2") format("woff2"),
+    url("/fonts/ReithSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReithSans";
+  src: url("/fonts/ReithSans-Light.woff2") format("woff2"),
+    url("/fonts/ReithSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReithSans";
+  src: url("/fonts/ReithSans-Bold.woff2") format("woff2"),
+    url("/fonts/ReithSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
