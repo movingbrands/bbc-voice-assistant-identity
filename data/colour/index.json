@@ -1,0 +1,135 @@
+{
+    "title": "Colour",
+    "createdAt": "09-12-2019",
+    "lastEdited": "09-12-2019",
+    "pages": [
+        {
+            "title": "Overview",
+            "overview": true,
+            "type": "main",
+            "children": [
+                {
+                    "type": "section",
+                    "props": {
+                        "cover": true,
+                        "background": {
+                            "color": "#00F0CC",
+                            "asset": {
+                                "type": "image",
+                                "src": "/data/colour/colour-introduction.jpg",
+                                "props": {}
+                            }
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "h1",
+                            "children": "Introduction"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Principles",
+            "type": "main",
+            "children": [
+                {
+                    "type": "section",
+                    "props": {
+                        "background": {
+                            "color": "#00F0CC"
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "props": {
+                                                "bold": true
+                                            },
+                                            "children": "1."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We use colour of the net to distinguish between the Assistant and the User."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "props": {
+                                                "bold": true
+                                            },
+                                            "children": "2."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We use colour as signposting to distinguish between content providers."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "props": {
+                                                "bold": true
+                                            },
+                                            "children": "3."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "props": {
+                                                "bold": true
+                                            },
+                                            "children": "4."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We use different combinations of the palette to create light and dark modes."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "props": {
+                                                "bold": true
+                                            },
+                                            "children": "5."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

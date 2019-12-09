@@ -1,15 +1,29 @@
 import { configure, addParameters } from "@storybook/react";
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
+import { generateSectionStory } from './utils/generateStory'
 
 import "./global.css";
 import theme from "./theme";
 
-// automatically import all files ending in *.stories.js
-const req = require.context("../stories", true, /\.story\.js$/);
+import introduction from '../data/introduction/index.json'
+import colour from '../data/colour/index.json'
+// import allData from '../data/index.json'
+// import allData from '../data/index.json'
+// import allData from '../data/index.json'
+// import allData from '../data/index.json'
 
 const loadStories = () => {
-  req.keys().forEach(filename => req(filename));
+  generateSectionStory(introduction)
+  generateSectionStory(colour)
+  // allData.sections.forEach(section => {
+  //   import(`../data${section.data}`).then(sectionData => {
+  //     if (sectionData) {
+  //       generateSectionStory(sectionData)
+  //     }
+  //   })
+  // })
 };
+
 
 addParameters({
   options: {
@@ -26,3 +40,4 @@ addParameters({
 });
 
 configure(loadStories, module);
+

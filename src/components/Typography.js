@@ -53,7 +53,6 @@ const baseStyles = css`
 const dynamicStyles = ({ bold, dark, light, gel }) =>
   css`
     font-weight: ${bold ? "bold" : "normal"};
-    color: ${light ? colors.text.white : colors.text.darkgrey};
     ${gel && !!gelTypeStyles[gel] ? gelTypeStyles[gel].css : ""}
   `;
 
@@ -63,7 +62,8 @@ export const H1 = styled.h1`
 `;
 
 H1.defaultProps = {
-  bold: true
+  bold: true,
+  gel: 'elephant'
 };
 
 export const H2 = styled.h2`
@@ -72,7 +72,7 @@ export const H2 = styled.h2`
 `;
 
 H2.defaultProps = {
-  bold: true
+  bold: false
 };
 
 export const H3 = styled.h3`
@@ -81,7 +81,7 @@ export const H3 = styled.h3`
 `;
 
 H3.defaultProps = {
-  bold: true
+  bold: false
 };
 
 export const H4 = styled.h4`

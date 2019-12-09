@@ -1,0 +1,42 @@
+{
+    "title": "BBC Voice Assistant Identity", 
+    "createdAt": "09-12-2019",
+    "lastUpdated": "09-12-2019",
+    "sections": [
+        {
+            "title": "Introduction",
+            "slug": "introduction",
+            "data": "/introduction/index.json"
+        },
+        {
+            "title": "Colour",
+            "slug": "colour",
+            "data": "/colour/index.json"
+        },
+        {
+            "title": "Motion",
+            "slug": "motion",
+            "data": "/motion/index.json"
+        },
+        {
+            "title": "Grid",
+            "slug": "grid",
+            "data": "/grid/index.json"
+        },
+        {
+            "title": "Typography",
+            "slug": "typography",
+            "data": "/typography/index.json"
+        },
+        {
+            "title": "User Journeys",
+            "slug": "user-journeys",
+            "data": "/user-journeys/index.json"
+        },
+        {
+            "title": "Brand in use",
+            "slug": "brand-in-use",
+            "data": "/brand-in-use/index.json"
+        }
+    ]
+}

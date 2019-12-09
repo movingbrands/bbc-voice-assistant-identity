@@ -107,7 +107,7 @@ const { renderer, update } = netRenderer({
 ...
 
 // example of updating a uniform
-update("uForegroundColor", new Color("#FF2200"));
+update("uForegroundColor", new Color("#480D6B"));
 
 ```
 
