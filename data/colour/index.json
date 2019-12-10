@@ -10,21 +10,23 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "cover": true,
-                        "background": {
-                            "color": "#00F0CC",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/colour/colour-introduction.jpg",
-                                "props": {}
-                            }
+                    "align": "center",
+                    "background": {
+                        "color": "#00F0CC",
+                        "asset": {
+                            "type": "image",
+                            "src": "/colour/colour-divider.jpg"
                         }
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h1",
+                                    "children": "Colour"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -36,12 +38,69 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#00F0CC"
-                        }
+                    "background": {
+                        "color": "#00F0CC"
                     },
                     "children": [
+                        {
+                            "type": "header",
+                            "marginBottom": true,
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Principles"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "numbered": true,
+                            "items": [
+                                {
+                                    "type": "p",
+                                    "children": "We use colour of the net to distinguish between the Assistant and the User."
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We use colour as signposting to distinguish between content providers."
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We use different combinations of the palette to create light and dark modes."
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Assistant and User",
+            "type": "main",
+            "parent": "Light mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Assistant and User"
+                                }
+                            ]
+                        },
                         {
                             "type": "article",
                             "children": [
@@ -49,15 +108,17 @@
                                     "type": "box",
                                     "children": [
                                         {
-                                            "type": "p",
-                                            "props": {
-                                                "bold": true
-                                            },
-                                            "children": "1."
+                                            "type": "image",
+                                            "src": "/colour/colour-light-assistant.jpg"
                                         },
                                         {
                                             "type": "p",
-                                            "children": "We use colour of the net to distinguish between the Assistant and the User."
+                                            "bold": true,
+                                            "children": "Assistant - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Primary Light Green background with Primary Light Purple Net"
                                         }
                                     ]
                                 },
@@ -65,15 +126,62 @@
                                     "type": "box",
                                     "children": [
                                         {
-                                            "type": "p",
-                                            "props": {
-                                                "bold": true
-                                            },
-                                            "children": "2."
+                                            "type": "image",
+                                            "src": "/colour/colour-light-user.jpg"
                                         },
                                         {
                                             "type": "p",
-                                            "children": "We use colour as signposting to distinguish between content providers."
+                                            "bold": true,
+                                            "children": "User - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Primary Light Green background with Primary Dark Purple Net"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Combining BBC service colours",
+            "type": "main",
+            "parent": "Light mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Light mode usage - combining BBC service colours & lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-bbc-sounds.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC Sounds - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Orange with Secondary Light Yellow"
                                         }
                                     ]
                                 },
@@ -81,15 +189,17 @@
                                     "type": "box",
                                     "children": [
                                         {
-                                            "type": "p",
-                                            "props": {
-                                                "bold": true
-                                            },
-                                            "children": "3."
+                                            "type": "image",
+                                            "src": "/colour/colour-light-bbc-iplayer.jpg"
                                         },
                                         {
                                             "type": "p",
-                                            "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                                            "bold": true,
+                                            "children": "BBC iPlayer - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Pink with Secondary Light Yellow "
                                         }
                                     ]
                                 },
@@ -97,15 +207,62 @@
                                     "type": "box",
                                     "children": [
                                         {
-                                            "type": "p",
-                                            "props": {
-                                                "bold": true
-                                            },
-                                            "children": "4."
+                                            "type": "image",
+                                            "src": "/colour/colour-light-bbc-sport.jpg"
                                         },
                                         {
                                             "type": "p",
-                                            "children": "We use different combinations of the palette to create light and dark modes."
+                                            "bold": true,
+                                            "children": "BBC Sport - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Yellow with Secondary Light Pink or Secondary Light Purple "
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "BBC service colours and neutrals",
+            "type": "main",
+            "parent": "Light mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Light mode usage - combining BBC service colours & neutrals"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-neutral-bbc-weather.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC Weather - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Neutral White background with Weather Blue Net"
                                         }
                                     ]
                                 },
@@ -113,15 +270,390 @@
                                     "type": "box",
                                     "children": [
                                         {
-                                            "type": "p",
-                                            "props": {
-                                                "bold": true
-                                            },
-                                            "children": "5."
+                                            "type": "image",
+                                            "src": "/colour/colour-light-neutral-bbc-news.jpg"
                                         },
                                         {
                                             "type": "p",
-                                            "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                                            "bold": true,
+                                            "children": "BBC News - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Neutral Grey 2 background with News Red Net"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Third parties",
+            "type": "main",
+            "parent": "Light mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Third parties"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-netflix.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Netflix - Light mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-nhs.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "NHS - Light mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-premier-league.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Premier League - Light mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-light-all4.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "All4 - Light mode"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Assistant and User",
+            "type": "main",
+            "parent": "Dark mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Assistant and User"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-assistant.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Assistant - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Primary Dark Purple background with Primary Light Green Net"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-user.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "User - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Primary Dark Purple background with Primary Light Purple Net"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Combining BBC service colours",
+            "type": "main",
+            "parent": "Dark mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Dark mode usage - combining BBC service colours & darks"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-bbc-sounds.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC Sounds - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Orange with Primary Dark Purple "
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-bbc-iplayer.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC iPlayer - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Pink with Primary Dark Purple"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-bbc-sport.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC Sport - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Secondary Light Yellow with Primary Dark Purple or Primary Dark Green"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "BBC service colours and dark grey",
+            "type": "main",
+            "parent": "Dark mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Light mode usage - combining BBC service colours & Dark Grey"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-bbc-weather.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC Weather - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Grey background with Weather Blue Net"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-bbc-news.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "BBC News - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Grey background with News Red Net"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Third parties",
+            "type": "main",
+            "parent": "Dark mode",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Third parties"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-third-parties-netflix.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Netflix - Dark mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-third-parties-nhs.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "NHS - Dark mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-third-parties-premier-league.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Premier League - Dark mode"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-dark-third-parties-all4.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "All4 - Dark mode"
                                         }
                                     ]
                                 }

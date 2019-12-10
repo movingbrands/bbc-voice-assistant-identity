@@ -1,7 +1,4 @@
 {
-    "background": {
-        "color": "#480D6B"
-    },
     "title": "User Journeys",
     "createdAt": "09-12-2019",
     "lastEdited": "09-12-2019",
@@ -13,45 +10,223 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
+                    "align": "center",
+                    "background": {
+                        "color": "#EB498D",
+                        "asset": {
+                            "type": "image",
+                            "src": "/user-journeys/user-journeys-divider.jpg"
                         }
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h1",
+                                    "children": "User Journeys"
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         },
         {
-            "title": "Principles",
+            "title": "Personal Stream",
+            "parent": "Journeys",
             "type": "main",
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
-                        }
-                    },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": "Personal Stream"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-1.mp4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Direct Search & Third Party TV Content",
+            "type": "main",
+            "parent": "Journeys",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": "Direct Search & Third Party TV Content"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-2.mp4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Focus Change",
+            "type": "main",
+            "parent": "Journeys",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": "Focus Change"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-3.mp4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reduced Motion - Personal Stream",
+            "type": "main",
+            "parent": "Journeys",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Reduced Motion"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Personal Stream"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-4a.mp4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reduced Motion - Third Party TV Content",
+            "type": "main",
+            "parent": "Journeys",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Reduced Motion"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Third Party TV Content"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-4b.mp4"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Direct Search on TV Platform",
+            "type": "main",
+            "parent": "Journeys",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": "Direct Search on TV Platform"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "videoWrapper",
+                            "children": [
+                                {
+                                    "type": "video",
+                                    "src": "/user-journeys/user-journey-5.mp4"
+                                }
+                            ]
                         }
                     ]
                 }

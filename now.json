@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "bbc-voice-id",
+  "name": "bbc-voice-assistant-id",
   "public": false,
-  "alias": ["bbc-voice-id.now.sh", "bbc-voice-id.movingbrands.now.sh"],
+  "alias": ["bbc-voice-assistant-id.now.sh", "bbc-voice-assistant-id.movingbrands.now.sh"],
   "scope": "movingbrands",
   "regions": ["all"],
   "github": {

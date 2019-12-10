@@ -1,7 +1,4 @@
 {
-    "background": {
-        "color": "#480D6B"
-    },
     "title": "Typography",
     "createdAt": "09-12-2019",
     "lastEdited": "09-12-2019",
@@ -13,20 +10,23 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
+                    "align": "center",
+                    "background": {
+                        "color": "#F54905",
+                        "asset": {
+                            "type": "image",
+                            "src": "/typography/typography-divider.jpg"
                         }
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h1",
+                                    "children": "Typography"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -38,20 +38,190 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
-                        }
+                    "background": {
+                        "color": "#00F0CC"
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "marginBottom": true,
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Principles"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "numbered": true,
+                            "items": [
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "To distinguish between the User and Assistant’s dialogue, we use Reith Sans in Italic and Medium weights."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We use Italics to capture the User’s dialogue. We use Medium weight to capture the Assistant’s dialogue."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We ensure the typography animates smoothly and simply, to not interfere with the motion of the net and overwhelm the user."
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We use Text Dark Grey when using the Light Mode colour palette. We use Text White when using the Dark Mode colour palette."
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "We use GEL recommended copy sizing, with the leading opened out slightly on the larger screens."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We keep the line length of dialogue to two lines on all screens."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distinguishing the User and Assistant",
+            "type": "section",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Distinguishing the User and Assistant"
+                        }
+                    ]
+                },
+                {
+                    "type": "grid",
+                    "items": [
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-reith-sans-medium.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Assistant Dialogue - Reith Sans Medium"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "The assistant is represented through Reith Sans Medium."
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-reith-sans-italic.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Assistant Dialogue - Reith Sans Italic"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "The user’s voice is captured through Reith Sans Italic, to capture a sense of conversation."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sizes",
+            "type": "section",
+            "parent": "Type sizes",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Type sizes"
+                        }
+                    ]
+                },
+                {
+                    "type": "grid",
+                    "align": "flex-end",
+                    "items": [
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-size-small.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Devices up to 599px wide"
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-size-medium.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Devices 600px and above wide"
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-size-large.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Desktop / Laptop"
+                                }
+                            ]
+                        },
+                        {
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-size-extralarge.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Larger devices e.g. TV"
+                                }
+                            ]
                         }
                     ]
                 }

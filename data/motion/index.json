@@ -1,32 +1,71 @@
 {
-    "background": {
-        "color": "#480D6B"
-    },
     "title": "Motion",
     "createdAt": "09-12-2019",
     "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
-            "overview": true,
             "type": "main",
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
+                    "align": "center",
+                    "background": {
+                        "color": "#B64AFF",
+                        "asset": {
+                            "type": "video",
+                            "src": "/motion/motion-divider.mp4"
                         }
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h1",
+                                    "children": "Motion"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Motion of the Assistant",
+            "type": "main",
+            "children": [
+                {
+                    "type": "section",
+                    "background": {
+                        "color": "#B64AFF"
+                    },
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Motion of the Assistant"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "style": {
+                                                "margin-bottom": "1em"
+                                            },
+                                            "children": "The grid framework allows a range of behaviours, helping to establish a visual language that feels expressive and varied."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "It provides a basis to create animations that are at times functional and at times highly expressive   ."
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -38,20 +77,141 @@
             "children": [
                 {
                     "type": "section",
-                    "props": {
-                        "background": {
-                            "color": "#480D6B",
-                            "asset": {
-                                "type": "image",
-                                "src": "/data/introduction/sample-image.png",
-                                "props": {}
-                            }
-                        }
+                    "background": {
+                        "color": "#B64AFF"
                     },
                     "children": [
                         {
-                            "type": "h1",
-                            "children": "Introduction"
+                            "type": "header",
+                            "marginBottom": true,
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Principles"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "numbered": true,
+                            "items": [
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Size"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "(Small to Large)"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "This refers to the size of any given Minim on screen."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Density"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "(Dispersed to Dense)"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "This is the number of Minims occupying the Net and has a fixed relationship with the size of the Minim i.e. the greater the size of Minim the lower the density and vice versa."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Position"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "(Structured to Organic)"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "This is the amount of movement attributed to individual Minim as part of the entire Net."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Speed"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "(Calm to Energetic)"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "This describes the velocity with which an individual Minim moves in relation to the Net."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Shape"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "This is used to describe the visual footprint of the Minim’s on-screen."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Examples",
+            "type": "main",
+            "parent": "Examples",
+            "children": [
+                {
+                    "type": "section",
+                    "background": {
+                        "color": "#B64AFF"
+                    },
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Motion of the Assistant"
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

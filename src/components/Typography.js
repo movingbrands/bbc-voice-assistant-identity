@@ -17,8 +17,6 @@ import {
   GEL_CANON as canon
 } from "@bbc/gel-foundations/typography";
 
-import { colors } from "Constants";
-
 const gelTypeStyles = {
   trafalgar: { css: trafalgar },
   paragon: { css: paragon },
@@ -72,7 +70,8 @@ export const H2 = styled.h2`
 `;
 
 H2.defaultProps = {
-  bold: false
+  bold: false,
+  gel: 'canon'
 };
 
 export const H3 = styled.h3`
@@ -81,7 +80,8 @@ export const H3 = styled.h3`
 `;
 
 H3.defaultProps = {
-  bold: false
+  bold: false,
+  gel: 'trafalgar'
 };
 
 export const H4 = styled.h4`
