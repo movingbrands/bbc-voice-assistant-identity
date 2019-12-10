@@ -29,13 +29,7 @@
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Principles",
-            "type": "main",
-            "children": [
+                },
                 {
                     "type": "section",
                     "background": {
@@ -54,28 +48,59 @@
                             ]
                         },
                         {
-                            "type": "grid",
-                            "numbered": true,
-                            "items": [
+                            "type": "article",
+                            "as": "ol",
+                            "columns": 5,
+                            "children": [
                                 {
-                                    "type": "p",
-                                    "children": "We use colour of the net to distinguish between the Assistant and the User."
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "We use colour of the net to distinguish between the Assistant and the User."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "p",
-                                    "children": "We use colour as signposting to distinguish between content providers."
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "We use colour as signposting to distinguish between content providers."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "p",
-                                    "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "p",
-                                    "children": "We use different combinations of the palette to create light and dark modes."
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "We use different combinations of the palette to create light and dark modes."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "p",
-                                    "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -103,6 +128,7 @@
                         },
                         {
                             "type": "article",
+                            "columns": 2,
                             "children": [
                                 {
                                     "type": "box",
@@ -166,6 +192,7 @@
                         },
                         {
                             "type": "article",
+                            "columns": 3,
                             "children": [
                                 {
                                     "type": "box",
@@ -247,6 +274,7 @@
                         },
                         {
                             "type": "article",
+                            "columns": 2,
                             "children": [
                                 {
                                     "type": "box",
@@ -393,6 +421,7 @@
                         },
                         {
                             "type": "article",
+                            "columns": 2,
                             "children": [
                                 {
                                     "type": "box",

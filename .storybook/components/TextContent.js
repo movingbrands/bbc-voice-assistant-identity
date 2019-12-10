@@ -3,6 +3,8 @@ import * as Type from "Components/Typography";
 import styled, { css } from 'styled-components'
 import { Color } from 'Utils/Color'
 import { colors } from 'Constants'
+import { compare } from "Utils/colorContrast";
+import * as defaultWCAGContrastRatios from "Utils/colorContrastRatios";
 
 const StyledImage = styled.img`
   width: 100%;
@@ -45,11 +47,47 @@ const Video = (props) => {
   )
 }
 
-const Article = styled.article`
+const StyledBox = styled.div`
+  height: 20%;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  counter-increment: inst;
+  position: relative;
+  display: block;
+  position: relative;
+  ${props => props.as === 'li' && css`
+    ::before {
+      font-weight: bold;
+      content: counter(inst);
+      position: relative;
+      display: block;
+    }
+    `}
+    `
+
+const StyledArticle = styled.article`
   width: 100%;
   display: flex;
+  flex-flow: row wrap;
+  ${props => props.as === 'ol' && css`
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+  `}
+  & > ${StyledBox} {
+    ${props => `max-width: ${(1 / props.columns) * 100}%;`}
+  }
   ${props => `align-items: ${props.align}`};
 `
+
+const Article = ({ columns, ...rest }) => {
+  return <StyledArticle columns={columns || rest.children.length} {...rest} />
+}
+
+Article.defaultProps = {
+  align: "flex-start"
+}
 const StyledSection = styled.section`
   width: 100%;
   min-height: 100vh;
@@ -87,17 +125,13 @@ const StyledMain = styled.main`
   overflow-y: scroll;
 `
 
-const StyledBox = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-`
 
 const Aside = styled.aside`
   padding: 20px;
   width: 100%;
   max-width: 400px;
 `
+
 const Main = (props) => {
   return (
     <StyledMain>{props.children}</StyledMain>
@@ -106,20 +140,35 @@ const Main = (props) => {
 
 const Asset = (props) => props.type === 'video' ? <Video {...props} /> : <Image {...props} />
 
-const Grid = ({ items, numbered, align }) => {
+const Swatch = styled.div`
+  width: calc(20% - 20px);
+  height: calc(20vw - 20px);
+  margin: 10px;
+  padding: 10px;
+  ${props => props.outline && "border: 1px solid rgba(0,0,0,0.1);"}
+`
+
+const TypographyContrastSwatch = ({ foreground, background, children, ...rest }) => {
+  const fg = new Color(foreground)
+  const bg = new Color(background)
+  const { result } = compare(bg, fg, defaultWCAGContrastRatios);
   return (
-    <Article align={align}>
-      {items.map((child, i) =>
-        <TextContent type="box" number={numbered && i + 1} children={child.children} />
-      )}
-    </Article>
+    <Fragment>
+      <Swatch
+        style={{
+          backgroundColor: bg.style,
+          color: fg.style
+        }}
+        {...rest}>
+        {children}
+        <Type.P>
+          {result}
+        </Type.P>
+      </Swatch>
+    </Fragment>
   )
 }
 
-Grid.defaultProps = {
-  numbered: false,
-  align: "start"
-}
 const Section = ({ children, align, background }) => {
   const bg = new Color(background.color)
   const fg = bg.isDark ? colors.text.white : colors.text.darkgrey
@@ -159,20 +208,21 @@ const serializers = {
   section: Section,
   article: Article,
   box: StyledBox,
-  grid: Grid,
   aside: Aside,
-  videoWrapper: StyledVideoWrapper
+  videoWrapper: StyledVideoWrapper,
+  typographyContrastSwatch: TypographyContrastSwatch
 }
 
-export const TextContent = ({ children, number, index, type, ...rest }) => {
-  const TagComponent = serializers[type] || Fragment;
-  console.log(typeof children, children)
+export const TextContent = ({ parentKey, children, type, nesting, ...rest }) => {
+  const TagComponent = type && serializers[type] ? serializers[type] : Fragment;
   return (
     <TagComponent {...rest}>
-      {!!number && <Type.P bold>{number}.</Type.P>}
       {!!children && typeof children === 'string' ?
         children : children.map((child, i) =>
-          <TextContent {...child} index={index + 1} />
+          <TextContent
+            {...child}
+            nesting={nesting + 1}
+            key={`${parentKey}_${type}_${nesting}_${i}`} />
         )
       }
     </TagComponent>
@@ -180,8 +230,7 @@ export const TextContent = ({ children, number, index, type, ...rest }) => {
 };
 
 TextContent.defaultProps = {
-  index: 0,
-  type: false,
-  props: {},
+  parentKey: '',
+  nesting: 0,
   children: []
 };

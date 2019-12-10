@@ -1,4 +1,7 @@
+import { get } from '@ngard/tiny-get'
 import { parseHex, parseNumberToHex, parseRGBString } from "Utils/parse";
+import { constrain } from "Utils/number";
+import { colors } from 'Constants'
 
 export class Color {
   r = 0.0;
@@ -11,7 +14,10 @@ export class Color {
       return value;
     }
     if (meta) this.meta = meta;
-    if (typeof value === "string") {
+    if (typeof get(colors, value) === "string") {
+      this.hex = get(colors, value)
+    }
+    else if (typeof value === "string") {
       if (value.startsWith("#")) {
         this.hex = value;
       } else if (value.startsWith("rgb")) {
@@ -29,9 +35,7 @@ export class Color {
   set hex(hexColor) {
     const parsed = parseHex(hexColor);
     if (parsed) {
-      this.r = parseFloat(parsed[0]);
-      this.g = parseFloat(parsed[1]);
-      this.b = parseFloat(parsed[2]);
+      this.rgb = [parseFloat(parsed[0]), parseFloat(parsed[1]), parseFloat(parsed[2])]
     }
   }
   get hex() {
@@ -40,14 +44,23 @@ export class Color {
     )}${parseNumberToHex(this.b)}`.toUpperCase();
   }
   set rgb(vecColor) {
-    this.r = vecColor[0];
-    this.g = vecColor[1];
-    this.b = vecColor[2];
+    this.red = vecColor[0]
+    this.green = vecColor[1]
+    this.blue = vecColor[2]
 
-    if (typeof vecColor[3] !== "undefined") this.a = vecColor[3];
+    if (typeof vecColor[3] !== "undefined") this.alpha = vecColor[3];
+  }
+  set red(r) {
+    this.r = constrain(r, 0.0, 1.0);
+  }
+  set green(g) {
+    this.g = constrain(g, 0.0, 1.0);
+  }
+  set blue(b) {
+    this.b = constrain(b, 0.0, 1.0);
   }
   set alpha(alpha) {
-    this.a = alpha;
+    this.a = constrain(alpha, 0.0, 1.0);
   }
   get vec3() {
     return [this.r, this.g, this.b];
@@ -56,12 +69,14 @@ export class Color {
     return [this.r, this.g, this.b, this.a];
   }
   get luma() {
-    return Math.sqrt(
-      0.299 * (this.r * this.r) +
-        0.587 * (this.g * this.g) +
-        0.114 * (this.b * this.b)
-    );
+    const result = this.vec3.map(v => {
+      return v <= 0.03928
+        ? v / 12.92
+        : Math.pow((v + 0.055) / 1.055, 2.4);
+    })
+    return result[0] * 0.2126 + result[1] * 0.7152 + result[2] * 0.0722;
   }
+
   get style() {
     if (this.a !== 1.0) {
       return `rgba(${parseInt(this.r * 255.0, 10)}, ${parseInt(

@@ -11,9 +11,7 @@ export const luminosityContrastRatio = (lumaA, lumaB) => {
     darker = lumaA;
   }
 
-  const ratio = (lighter + 0.05) / (darker + 0.05);
-
-  return ratio;
+  return (lighter + 0.05) / (darker + 0.05)
 };
 
 export const compare = (background, foreground, ratios) => {

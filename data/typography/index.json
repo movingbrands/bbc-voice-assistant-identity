@@ -29,17 +29,11 @@
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Principles",
-            "type": "main",
-            "children": [
+                },
                 {
                     "type": "section",
                     "background": {
-                        "color": "#00F0CC"
+                        "color": "#F54905"
                     },
                     "children": [
                         {
@@ -54,10 +48,12 @@
                             ]
                         },
                         {
-                            "type": "grid",
-                            "numbered": true,
-                            "items": [
+                            "type": "article",
+                            "as": "ol",
+                            "children": [
                                 {
+                                    "type": "box",
+                                    "as": "li",
                                     "children": [
                                         {
                                             "type": "p",
@@ -70,14 +66,18 @@
                                     ]
                                 },
                                 {
-                                    "type": "p",
+                                    "type": "box",
+                                    "as": "li",
                                     "children": "We ensure the typography animates smoothly and simply, to not interfere with the motion of the net and overwhelm the user."
                                 },
                                 {
-                                    "type": "p",
+                                    "type": "box",
+                                    "as": "li",
                                     "children": "We use Text Dark Grey when using the Light Mode colour palette. We use Text White when using the Dark Mode colour palette."
                                 },
                                 {
+                                    "type": "box",
+                                    "as": "li",
                                     "children": [
                                         {
                                             "type": "p",
@@ -111,9 +111,10 @@
                     ]
                 },
                 {
-                    "type": "grid",
-                    "items": [
+                    "type": "article",
+                    "children": [
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -131,6 +132,7 @@
                             ]
                         },
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -152,9 +154,9 @@
             ]
         },
         {
-            "title": "Sizes",
+            "title": "Type sizes",
             "type": "section",
-            "parent": "Type sizes",
+            "parent": "System",
             "children": [
                 {
                     "type": "header",
@@ -168,10 +170,11 @@
                     ]
                 },
                 {
-                    "type": "grid",
+                    "type": "article",
                     "align": "flex-end",
-                    "items": [
+                    "children": [
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -185,6 +188,7 @@
                             ]
                         },
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -198,6 +202,7 @@
                             ]
                         },
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -211,6 +216,7 @@
                             ]
                         },
                         {
+                            "type": "box",
                             "children": [
                                 {
                                     "type": "image",
@@ -220,6 +226,217 @@
                                     "type": "p",
                                     "bold": true,
                                     "children": "Larger devices e.g. TV"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Considerations",
+            "type": "section",
+            "parent": "System",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Considerations"
+                        }
+                    ]
+                },
+                {
+                    "type": "article",
+                    "align": "flex-start",
+                    "children": [
+                        {
+                            "type": "box",
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-considerations-dialogue-and-content.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Alignment for Dialogue and Content"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We always centre align typography for user and assistant dialogue."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-considerations-ui-menus.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Alignment for UI Menus"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We always left align typography for UI menus."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/typography/typography-considerations-line-length.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Line length"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "As a voice led product, we limit dialogue typography to two lines across all screens."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AA Accessibility",
+            "type": "section",
+            "parent": "System",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "AA Accessibility"
+                        }
+                    ]
+                },
+                {
+                    "type": "article",
+                    "align": "flex-start",
+                    "children": [
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#121212",
+                            "background": "#b64aff",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#121212",
+                            "background": "#00f0cc",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#121212",
+                            "background": "#fd4b1f",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#121212",
+                            "background": "#fed24d",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#121212",
+                            "background": "#f34b96",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#FFFFFF",
+                            "background": "#480d6b",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "White Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#FFFFFF",
+                            "background": "#064751",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "White Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "foreground": "#FFFFFF",
+                            "background": "#121212",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "White Text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "typographyContrastSwatch",
+                            "background": "#FFFFFF",
+                            "foreground": "#121212",
+                            "outline": true,
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Dark Grey Text"
                                 }
                             ]
                         }
