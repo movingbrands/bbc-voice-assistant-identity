@@ -109,7 +109,7 @@
             ]
         },
         {
-            "title": "Palette",
+            "title": "Palette (WIP)",
             "type": "section",
             "children": [
                 {
@@ -960,7 +960,7 @@
             ]
         },
         {
-            "title": "Subdued mode",
+            "title": "Subdued mode (WIP)",
             "type": "main",
             "parent": "Other modes",
             "children": [
@@ -995,7 +995,7 @@
             ]
         },
         {
-            "title": "Colour Contrast",
+            "title": "Colour Contrast (WIP)",
             "type": "main",
             "parent": "Accessibility",
             "children": [
