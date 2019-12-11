@@ -38,7 +38,7 @@ const StyledHeader = styled.header`
 `
 
 const ColourPalette = () => {
-  return <div>This is our colour palette</div>
+  return <div></div>
 }
 const Image = (props) => {
   return <StyledImage src={props.src} />
