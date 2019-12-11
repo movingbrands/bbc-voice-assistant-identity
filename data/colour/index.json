@@ -849,6 +849,149 @@
             ]
         },
         {
+            "title": "Sensitive mode",
+            "type": "main",
+            "parent": "Other modes",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Sensitive mode"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "children": "We can override both our light and dark mode colour logic when serving sensitive news content, such as a Category 1 Obituary. We resolve to pairing Dark Grey with the dark palette colours for a sombre tone."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-sensitive-light-1.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Sensitive - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Grey Net with Dark Purple Background"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-sensitive-light-2.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Sensitive - Light Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Grey Net with Dark Green Background"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-sensitive-dark-1.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Sensitive - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Purple Net with Dark Grey Background"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/colour/colour-sensitive-dark-2.jpg"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Sensitive - Dark Mode"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Dark Green Net with Dark Grey Background"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Subdued mode",
+            "type": "main",
+            "parent": "Other modes",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Subdued mode"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "children": "For a subdued mode, when the Assistant is yet to be woken, we can pair a Grey 6 Net with Dark Grey Background, after being woken by the User."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Colour Contrast",
             "type": "main",
             "parent": "Accessibility",

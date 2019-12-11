@@ -167,6 +167,20 @@
                     ]
                 },
                 {
+                    "type": "aside",
+                    "children": [
+                        {
+                            "type": "p",
+                            "bold": true,
+                            "children": "Using GEL"
+                        },
+                        {
+                            "type": "p",
+                            "children": "For type sizes we use four GEL recommended breakpoint groups to suit a range of devices. Using the GEL breakpoints helps create uniformity across different screen sizes and capabilities. The sizes shown below correspond to size and line-height (size/line-height) and are in pixels. We do not kern or track Reith."
+                        }
+                    ]
+                },
+                {
                     "type": "article",
                     "align": "flex-end",
                     "columns": 1,
@@ -334,6 +348,19 @@
                             "type": "h2",
                             "bold": "true",
                             "children": "AA Accessibility"
+                        }
+                    ]
+                },
+                {
+                    "type": "aside",
+                    "children": [
+                        {
+                            "type": "p",
+                            "bold": true
+                        },
+                        {
+                            "type": "p",
+                            "children": "By using Text Dark Grey and Text White, we can ensure AA accessibility across the palette. This page covers which colours to pair when using type, and the accessibility of each pairing. The text on this page is set at 16 px."
                         }
                     ]
                 },

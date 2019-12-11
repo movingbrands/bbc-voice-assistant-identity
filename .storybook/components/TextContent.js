@@ -169,9 +169,9 @@ const Main = (props) => {
 const Asset = (props) => props.type === 'video' ? <Video {...props} /> : <Image {...props} />
 
 const Swatch = styled.div`
-      width: calc(20% - 20px);
+      width: calc(20% - 40px);
       height: calc(20vw - 20px);
-      margin: 10px;
+      margin: 20px;
       padding: 10px;
   ${dynamicColourStyles}
     ${props => props.outline && "border: 1px solid rgba(0,0,0,0.1);"}

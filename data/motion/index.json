@@ -228,11 +228,22 @@
                                         {
                                             "type": "p",
                                             "children": "Never used"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "gel": "canon",
+                                            "style": {
+                                                "marginTop": "1em"
+                                            },
+                                            "children": "0%"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "box",
+                                    "style": {
+                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                                    },
                                     "children": [
                                         {
                                             "type": "video",
@@ -246,11 +257,22 @@
                                         {
                                             "type": "p",
                                             "children": "Used rarely"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "gel": "canon",
+                                            "style": {
+                                                "marginTop": "1em"
+                                            },
+                                            "children": "10%"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "box",
+                                    "style": {
+                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                                    },
                                     "children": [
                                         {
                                             "type": "video",
@@ -264,6 +286,14 @@
                                         {
                                             "type": "p",
                                             "children": "Used often"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "gel": "canon",
+                                            "style": {
+                                                "marginTop": "1em"
+                                            },
+                                            "children": "80%"
                                         }
                                     ]
                                 },
@@ -305,6 +335,9 @@
                                 },
                                 {
                                     "type": "box",
+                                    "style": {
+                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                                    },
                                     "children": [
                                         {
                                             "type": "video",
@@ -318,11 +351,22 @@
                                         {
                                             "type": "p",
                                             "children": "Used rarely"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "gel": "canon",
+                                            "style": {
+                                                "marginTop": "1em"
+                                            },
+                                            "children": "10%"
                                         }
                                     ]
                                 },
                                 {
                                     "type": "box",
+                                    "style": {
+                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                                    },
                                     "children": [
                                         {
                                             "type": "video",
@@ -336,6 +380,14 @@
                                         {
                                             "type": "p",
                                             "children": "Never used"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "gel": "canon",
+                                            "style": {
+                                                "marginTop": "1em"
+                                            },
+                                            "children": "0%"
                                         }
                                     ]
                                 }
