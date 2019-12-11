@@ -1,4 +1,4 @@
-const { baseName } = require('./utils/fs')
+const { baseName } = require('../utils/fs')
 
 const sharp = require('sharp')
 

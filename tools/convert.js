@@ -2,8 +2,8 @@ const fs = require('fs-extra')
 const glob = require('glob')
 const path = require('path')
 
-const { convertVideoForWeb } = require('./convertVideo')
-const { convertImageForWeb } = require('./convertImage')
+const { convertVideoForWeb } = require('./converters/convertVideo')
+const { convertImageForWeb } = require('./converters/convertImage')
 const { baseName } = require('./utils/fs')
 const gui = require('./utils/gui')
 

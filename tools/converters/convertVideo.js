@@ -1,5 +1,5 @@
-const ffmpeg = require('./utils/ffmpeg')
-const gui = require('./utils/gui');
+const ffmpeg = require('../utils/ffmpeg')
+const gui = require('../utils/gui');
 
 const codecs = {
   mp4: { video: 'libx264', audio: 'libmp3lame' },
@@ -91,7 +91,7 @@ const convertVideoForWeb = ({
             type: 'mp4',
             src: r[0]
           }
-        ]
+        ] 
       }
       resolve(result)
     }).catch(reject)

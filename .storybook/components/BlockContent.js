@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 import contentSerializers from './contentSerializers'
 
+// takes the data structure and converts it into a tree of React
+// components, using the 'type' property to match it to a specific 
+// React component in the contentSerializers object, and passing
+// all other props to the Component
+
 export const BlockContent = ({
   title,
   serializers,
