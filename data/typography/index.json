@@ -48,7 +48,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "as": "ol",
                             "children": [
                                 {
@@ -111,7 +111,7 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "children": [
                         {
                             "type": "box",
@@ -184,7 +184,7 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "align": "flex-end",
                     "columns": 1,
                     "children": [
@@ -277,7 +277,7 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "align": "flex-start",
                     "children": [
                         {
@@ -368,13 +368,13 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "align": "flex-start",
                     "children": [
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "light.purple",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "light.purple",
                             "children": [
                                 {
                                     "type": "p",
@@ -384,9 +384,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "light.green",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "light.green",
                             "children": [
                                 {
                                     "type": "p",
@@ -396,9 +396,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "light.orange",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "light.orange",
                             "children": [
                                 {
                                     "type": "p",
@@ -408,9 +408,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "light.yellow",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "light.yellow",
                             "children": [
                                 {
                                     "type": "p",
@@ -420,9 +420,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "light.pink",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "light.pink",
                             "children": [
                                 {
                                     "type": "p",
@@ -432,9 +432,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.white",
-                            "background": "dark.purple",
+                            "type": "colourSwatch",
+                            "color": "text.white",
+                            "backgroundColor": "dark.purple",
                             "children": [
                                 {
                                     "type": "p",
@@ -444,9 +444,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.white",
-                            "background": "dark.green",
+                            "type": "colourSwatch",
+                            "color": "text.white",
+                            "backgroundColor": "dark.green",
                             "children": [
                                 {
                                     "type": "p",
@@ -456,9 +456,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.white",
-                            "background": "text.darkgrey",
+                            "type": "colourSwatch",
+                            "color": "text.white",
+                            "backgroundColor": "text.darkgrey",
                             "children": [
                                 {
                                     "type": "p",
@@ -468,9 +468,9 @@
                             ]
                         },
                         {
-                            "type": "typographyContrastSwatch",
-                            "foreground": "text.darkgrey",
-                            "background": "text.white",
+                            "type": "colourSwatch",
+                            "color": "text.darkgrey",
+                            "backgroundColor": "text.white",
                             "outline": true,
                             "children": [
                                 {

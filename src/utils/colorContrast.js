@@ -14,9 +14,9 @@ export const luminosityContrastRatio = (lumaA, lumaB) => {
   return (lighter + 0.05) / (darker + 0.05)
 };
 
-export const compare = (background, foreground, ratios) => {
-  if (background instanceof Color && foreground instanceof Color) {
-    const result = luminosityContrastRatio(foreground.luma, background.luma);
+export const compare = (backgroundColor, color, ratios) => {
+  if (backgroundColor instanceof Color && color instanceof Color) {
+    const result = luminosityContrastRatio(color.luma, backgroundColor.luma);
     return {
       result: result.toFixed(2),
       tests: Object.keys(ratios).map(k => {

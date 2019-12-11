@@ -48,7 +48,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "as": "ol",
                             "children": [
                                 {
@@ -98,7 +98,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "aside",
@@ -154,7 +154,7 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "align": "flex-end",
                     "columns": 1,
                     "children": [
@@ -242,7 +242,7 @@
                     ]
                 },
                 {
-                    "type": "article",
+                    "type": "grid",
                     "align": "flex-end",
                     "columns": 1,
                     "children": [
@@ -382,7 +382,7 @@
                     "type": "section",
                     "children": [
                         {
-                            "type": "article",
+                            "type": "grid",
                             "align": "flex-end",
                             "children": [
                                 {
@@ -436,7 +436,7 @@
                     "type": "section",
                     "children": [
                         {
-                            "type": "article",
+                            "type": "grid",
                             "align": "flex-end",
                             "children": [
                                 {

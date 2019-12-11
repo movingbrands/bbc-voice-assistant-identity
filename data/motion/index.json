@@ -82,7 +82,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "as": "ol",
                             "children": [
                                 {
@@ -213,7 +213,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "align": "flex-start",
                             "children": [
                                 {
@@ -428,7 +428,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -685,7 +685,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 5,
                             "children": [
                                 {
@@ -760,7 +760,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 5,
                             "children": [
                                 {
@@ -821,7 +821,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 5,
                             "children": [
                                 {
@@ -882,7 +882,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 5,
                             "children": [
                                 {
@@ -943,7 +943,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 5,
                             "children": [
                                 {
@@ -1022,7 +1022,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",

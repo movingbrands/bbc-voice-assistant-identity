@@ -48,7 +48,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "as": "ol",
                             "columns": 5,
                             "children": [
@@ -174,7 +174,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 2,
                             "children": [
                                 {
@@ -252,7 +252,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 3,
                             "children": [
                                 {
@@ -348,7 +348,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 2,
                             "children": [
                                 {
@@ -433,7 +433,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -530,7 +530,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "columns": 2,
                             "children": [
                                 {
@@ -608,7 +608,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -703,7 +703,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -787,7 +787,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -879,7 +879,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": [
                                 {
                                     "type": "box",
@@ -987,7 +987,7 @@
                             ]
                         },
                         {
-                            "type": "article",
+                            "type": "grid",
                             "children": []
                         }
                     ]

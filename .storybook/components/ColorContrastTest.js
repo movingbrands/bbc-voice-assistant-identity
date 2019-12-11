@@ -33,12 +33,12 @@ const TestResult = styled(Type.P)`
   ${props => (props.pass ? "" : "color: rgb(160,160,160)")};
 `;
 export const ColorContrastTest = ({
-  foreground,
-  background,
+  color,
+  backgroundColor,
   testRatios,
   sizes
 }) => {
-  const { result, tests } = compare(background, foreground, testRatios);
+  const { result, tests } = compare(color, backgroundColor, testRatios);
   return (
     <ContrastResults>
       <RatioResult>{result}</RatioResult>
@@ -48,7 +48,7 @@ export const ColorContrastTest = ({
           <TestResult
             pass={pass}
             as="div"
-            key={`${size}-${rating}-${foreground.hex}-${background.hex}`}
+            key={`${size}-${rating}-${color.hex}-${backgroundColor.hex}`}
           >
             {size}
             <br />
