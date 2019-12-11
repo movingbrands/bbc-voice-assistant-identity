@@ -83,7 +83,7 @@ const convertVideoForWeb = ({
 }) =>
   new Promise((resolve, reject) => {
     Promise.all([
-      convertVideo({ input, output, format: 'mp4' }),
+      convertVideo({ input, output, format: 'mp4' })
     ]).then(r => {
       const result = {
         sources: [
@@ -91,10 +91,7 @@ const convertVideoForWeb = ({
             type: 'mp4',
             src: r[0]
           }
-        ],
-        poster: {
-          src: r[1]
-        }
+        ]
       }
       resolve(result)
     }).catch(reject)

@@ -1,18 +1,15 @@
 {
     "title": "Typography",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
-            "overview": true,
             "type": "main",
             "children": [
                 {
                     "type": "section",
                     "align": "center",
                     "background": {
-                        "color": "#F54905",
+                        "color": "light.orange",
                         "asset": {
                             "type": "image",
                             "src": "/typography/typography-divider.jpg"
@@ -33,7 +30,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#F54905"
+                        "color": "light.orange"
                     },
                     "children": [
                         {
@@ -172,9 +169,13 @@
                 {
                     "type": "article",
                     "align": "flex-end",
+                    "columns": 1,
                     "children": [
                         {
                             "type": "box",
+                            "style": {
+                                "width": "10%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -189,6 +190,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "20%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -203,6 +207,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "31%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -217,6 +224,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "39%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -333,8 +343,8 @@
                     "children": [
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#121212",
-                            "background": "#b64aff",
+                            "foreground": "text.darkgrey",
+                            "background": "light.purple",
                             "children": [
                                 {
                                     "type": "p",
@@ -345,8 +355,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#121212",
-                            "background": "#00f0cc",
+                            "foreground": "text.darkgrey",
+                            "background": "light.green",
                             "children": [
                                 {
                                     "type": "p",
@@ -357,8 +367,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#121212",
-                            "background": "#fd4b1f",
+                            "foreground": "text.darkgrey",
+                            "background": "light.orange",
                             "children": [
                                 {
                                     "type": "p",
@@ -369,8 +379,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#121212",
-                            "background": "#fed24d",
+                            "foreground": "text.darkgrey",
+                            "background": "light.yellow",
                             "children": [
                                 {
                                     "type": "p",
@@ -381,8 +391,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#121212",
-                            "background": "#f34b96",
+                            "foreground": "text.darkgrey",
+                            "background": "light.pink",
                             "children": [
                                 {
                                     "type": "p",
@@ -393,8 +403,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#FFFFFF",
-                            "background": "#480d6b",
+                            "foreground": "text.white",
+                            "background": "dark.purple",
                             "children": [
                                 {
                                     "type": "p",
@@ -405,8 +415,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#FFFFFF",
-                            "background": "#064751",
+                            "foreground": "text.white",
+                            "background": "dark.green",
                             "children": [
                                 {
                                     "type": "p",
@@ -417,8 +427,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "foreground": "#FFFFFF",
-                            "background": "#121212",
+                            "foreground": "text.white",
+                            "background": "text.darkgrey",
                             "children": [
                                 {
                                     "type": "p",
@@ -429,8 +439,8 @@
                         },
                         {
                             "type": "typographyContrastSwatch",
-                            "background": "#FFFFFF",
-                            "foreground": "#121212",
+                            "foreground": "text.darkgrey",
+                            "background": "text.white",
                             "outline": true,
                             "children": [
                                 {

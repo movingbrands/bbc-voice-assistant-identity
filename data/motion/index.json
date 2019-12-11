@@ -1,7 +1,5 @@
 {
     "title": "Motion",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
@@ -220,7 +218,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-too-dense.mp4"
+                                            "src": "/motion/density-and-size/motion-too-dense.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -238,7 +236,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-dense.mp4"
+                                            "src": "/motion/density-and-size/motion-dense.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -256,7 +254,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-quite-dense.mp4"
+                                            "src": "/motion/density-and-size/motion-quite-dense.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -274,7 +272,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-medium-density.mp4"
+                                            "src": "/motion/density-and-size/motion-medium-density.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -292,7 +290,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-quite-dispersed.mp4"
+                                            "src": "/motion/density-and-size/motion-quite-dispersed.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -310,7 +308,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-dispersed.mp4"
+                                            "src": "/motion/density-and-size/motion-dispersed.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -328,7 +326,7 @@
                                     "children": [
                                         {
                                             "type": "video",
-                                            "src": "/motion/motion-too-dispersed.mp4"
+                                            "src": "/motion/density-and-size/motion-too-dispersed.mp4"
                                         },
                                         {
                                             "type": "p",
@@ -348,9 +346,8 @@
             ]
         },
         {
-            "title": "Groupings",
+            "title": "Emotive Responses - Groupings",
             "type": "main",
-            "parent": "Emotive responses",
             "children": [
                 {
                     "type": "section",
@@ -600,6 +597,339 @@
                                         {
                                             "type": "p",
                                             "children": "Waiting"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Active",
+            "type": "main",
+            "parent": "Motion Library",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Active"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "columns": 5,
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Active Helping +TEXT.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Helping"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Active Thinking+TEXT.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Thinking"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Active+TEXT-V01.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "UNDEFINED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Negative",
+            "type": "main",
+            "parent": "Motion Library",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Negative"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "columns": 5,
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Negative+TEXT-V01.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "UNDEFINED"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/02 Error+TEXT-V01.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Error"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Subdued",
+            "type": "main",
+            "parent": "Motion Library",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Subdued"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "columns": 5,
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Subdued Quiet.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Quiet"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Subdued Tired.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Tired"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Positive",
+            "type": "main",
+            "parent": "Motion Library",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Positive"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "columns": 5,
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Positive Partying +TEXT.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Partying"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/emotive-responses/teal/00 Positive Sly-Cheeky+TEXT.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Sly"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transitions",
+            "type": "main",
+            "parent": "Motion Library",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Transitions"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "article",
+                            "columns": 5,
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/transitions/00 Active Transition+TEXT V02.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Transition 1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/transitions/00 Active Transition+TEXT.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Transition 2"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "video",
+                                            "src": "/motion/transitions/04 Transition Bright Colour 03.mp4"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Transition 3"
                                         }
                                     ]
                                 }

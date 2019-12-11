@@ -17,13 +17,13 @@ export const luminosityContrastRatio = (lumaA, lumaB) => {
 export const compare = (background, foreground, ratios) => {
   if (background instanceof Color && foreground instanceof Color) {
     const result = luminosityContrastRatio(foreground.luma, background.luma);
-    return Object.assign({
+    return {
       result: result.toFixed(2),
       tests: Object.keys(ratios).map(k => {
         const { rating, size, ratio } = ratios[k];
         return { rating, size, pass: result > ratio };
       })
-    });
+    };
   } else {
     throw new Error("Please supply a valid Color object");
   }

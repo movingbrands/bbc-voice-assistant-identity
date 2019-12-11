@@ -1,22 +1,16 @@
 {
-    "background": {
-        "color": "#480D6B"
-    },
     "title": "Introduction",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
             "type": "main",
             "parent": "Introduction",
-            "overview": true,
             "children": [
                 {
                     "type": "section",
                     "align": "center",
                     "background": {
-                        "color": "#480D6B",
+                        "color": "dark.purple",
                         "asset": {
                             "type": "image",
                             "src": "/introduction/introduction-divider.jpg"
@@ -47,7 +41,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#480D6B"
+                        "color": "dark.purple"
                     },
                     "children": [
                         {
@@ -112,7 +106,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#480D6B"
+                        "color": "dark.purple"
                     },
                     "children": [
                         {

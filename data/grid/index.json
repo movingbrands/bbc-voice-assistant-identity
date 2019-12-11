@@ -1,18 +1,15 @@
 {
     "title": "Grid",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
-            "overview": true,
             "type": "main",
             "children": [
                 {
                     "type": "section",
                     "align": "center",
                     "background": {
-                        "color": "#064751",
+                        "color": "dark.green",
                         "asset": {
                             "type": "image",
                             "src": "/grid/grid-divider.jpg"
@@ -33,7 +30,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#064751"
+                        "color": "dark.green"
                     },
                     "children": [
                         {
@@ -83,7 +80,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#FFFFFF"
+                        "color": "text.white"
                     },
                     "children": [
                         {
@@ -156,9 +153,13 @@
                 {
                     "type": "article",
                     "align": "flex-end",
+                    "columns": 1,
                     "children": [
                         {
                             "type": "box",
+                            "style": {
+                                "width": "16%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -177,6 +178,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "51%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -195,6 +199,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "33%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -234,9 +241,13 @@
                 {
                     "type": "article",
                     "align": "flex-end",
+                    "columns": 1,
                     "children": [
                         {
                             "type": "box",
+                            "style": {
+                                "width": "16%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -266,6 +277,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "51%"
+                            },
                             "children": [
                                 {
                                     "type": "image",
@@ -295,6 +309,9 @@
                         },
                         {
                             "type": "box",
+                            "style": {
+                                "width": "33%"
+                            },
                             "children": [
                                 {
                                     "type": "image",

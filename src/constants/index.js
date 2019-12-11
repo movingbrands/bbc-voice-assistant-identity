@@ -8,7 +8,8 @@ export const sizes = {
         name: "Medium",
         width: 640,
         height: 571
-    }, small: {
+    },
+    small: {
         name: "Small",
         width: 320,
         height: 516
@@ -24,21 +25,44 @@ export const brandColors = {
 
 export const colors = {
     light: {
-        purple: "#B64AFF",
-        green: "#00F0CC",
-        orange: "#F54905",
-        pink: "#EB498D",
-        yellow: "#FED24D"
+        purple: "#b849ff",
+        green: "#00efca",
+        orange: "#fd4b1f",
+        pink: "#f34b96",
+        yellow: "#ffd24d"
     },
     dark: {
-        purple: "#480D6B",
-        green: "#064751"
+        purple: "#490c6e",
+        green: "#034752"
     },
     text: {
         white: "#FFFFFF",
         darkgrey: "#121212"
     }
 };
+
+export const printColors = {
+    dark: {
+        green: {
+            pantone: "7477 C",
+            cmyk: [86, 29, 21, 67]
+        },
+        purple: {
+            pantone: "268 C",
+            cmyk: [82, 98, 0, 12]
+        }
+    },
+    light: {
+        green: {
+            pantone: "929 C",
+            cmyk: [48, 0, 25, 0]
+        },
+        purple: {
+            pantone: "814 C",
+            cmyk: [52, 66, 0, 0]
+        }
+    }
+}
 
 export const brandPresets = {
     iPlayer: {

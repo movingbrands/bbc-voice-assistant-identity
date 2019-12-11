@@ -8,6 +8,7 @@ const { baseName } = require('./utils/fs')
 const gui = require('./utils/gui')
 
 const outputDirectory = path.resolve(__dirname, '../converted')
+const inputDirectory = path.resolve(__dirname, '../artwork')
 
 const converters = {
     jpg: convertImageForWeb,
@@ -18,23 +19,21 @@ const converters = {
 const convertFile = file =>
     new Promise((resolve, reject) => {
         const { parent, base, extension } = baseName(file)
+        const targetFolder = parent.split(inputDirectory).pop()
 
-        fs.ensureDir(`${outputDirectory}/${parent}`)
+        fs.ensureDir(`${outputDirectory}/${targetFolder}`)
             .then(() => {
-
                 const Conversion = converters[extension]
-
                 Conversion({
                     input: file,
-                    output: `${outputDirectory}/${parent}/${base}`
+                    output: `${outputDirectory}/${targetFolder}/${base}`
                 }).then(r => {
                     resolve(r)
                 }).catch(reject)
-
             }).catch(reject)
     })
 
-glob(path.resolve(__dirname, `../artwork/**/*@(.mp4|.png|.jpg)`), (er, files) => {
+glob(`${inputDirectory}/**/*@(.mp4|.png|.jpg)`, (er, files) => {
     Promise.all(files.map(convertFile)).then(f => {
         gui.stop()
         console.log(`${f.length} files converted`)

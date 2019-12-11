@@ -1,18 +1,15 @@
 {
     "title": "Colour",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
-            "overview": true,
             "type": "main",
             "children": [
                 {
                     "type": "section",
                     "align": "center",
                     "background": {
-                        "color": "#00F0CC",
+                        "color": "light.green",
                         "asset": {
                             "type": "image",
                             "src": "/colour/colour-divider.jpg"
@@ -33,7 +30,7 @@
                 {
                     "type": "section",
                     "background": {
-                        "color": "#00F0CC"
+                        "color": "light.green"
                     },
                     "children": [
                         {
@@ -109,6 +106,39 @@
             ]
         },
         {
+            "title": "Palette",
+            "type": "section",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Palette"
+                        }
+                    ]
+                },
+                {
+                    "type": "aside",
+                    "children": [
+                        {
+                            "type": "p",
+                            "children": "Our palette consists of three sections:"
+                        },
+                        {
+                            "type": "p",
+                            "children": "Dark, Light and Neutral."
+                        }
+                    ]
+                },
+                {
+                    "type": "colourPalette"
+                }
+            ]
+        },
+        {
             "title": "Assistant and User",
             "type": "main",
             "parent": "Light mode",
@@ -123,6 +153,20 @@
                                     "type": "h2",
                                     "bold": "true",
                                     "children": "Assistant and User"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Primary conversations"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Conversations between the assistant and user uses the primary palette only."
                                 }
                             ]
                         },
@@ -187,6 +231,20 @@
                                     "type": "h2",
                                     "bold": "true",
                                     "children": "Light mode usage - combining BBC service colours & lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from across the BBC"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We pair colours to distinguish between content providers. Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette."
                                 }
                             ]
                         },
@@ -273,6 +331,20 @@
                             ]
                         },
                         {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from across the BBC"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "When BBC colours don't compliment the light palette, we combine the lead service colour with a colour from our Neutral palette."
+                                }
+                            ]
+                        },
+                        {
                             "type": "article",
                             "columns": 2,
                             "children": [
@@ -333,6 +405,27 @@
                                     "type": "h2",
                                     "bold": "true",
                                     "children": "Third parties"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from third parties"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "When serving content from third party content providers in light mode we allow the third party brand to immerse the assistant in brand colours."
+                                },
+                                {
+                                    "type": "small",
+                                    "style": {
+                                        "marginTop": "1em"
+                                    },
+                                    "children": "The third parties shown on this page are example cases and the assistant is not limited to these."
                                 }
                             ]
                         },
@@ -420,6 +513,20 @@
                             ]
                         },
                         {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Primary conversations"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Conversations between the assistant and user uses the primary palette only."
+                                }
+                            ]
+                        },
+                        {
                             "type": "article",
                             "columns": 2,
                             "children": [
@@ -480,6 +587,20 @@
                                     "type": "h2",
                                     "bold": "true",
                                     "children": "Dark mode usage - combining BBC service colours & darks"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from across the BBC"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We pair colours to distinguish between content providers. Where possible we combine BBC content provider colours with 1 or 2 colours from the dark palette."
                                 }
                             ]
                         },
@@ -565,6 +686,20 @@
                             ]
                         },
                         {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from across the BBC"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "When BBC colours don't compliment the dark palette, we combine the lead service colour with Dark Grey."
+                                }
+                            ]
+                        },
+                        {
                             "type": "article",
                             "children": [
                                 {
@@ -628,6 +763,27 @@
                             ]
                         },
                         {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Serving content from third parties"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "When serving content from third party content providers in dark mode we combine one main brand colour of the third party, with the Dark Grey from our neutral palette."
+                                },
+                                {
+                                    "type": "small",
+                                    "style": {
+                                        "marginTop": "1em"
+                                    },
+                                    "children": "The third parties shown on this page are example cases and the assistant is not limited to these."
+                                }
+                            ]
+                        },
+                        {
                             "type": "article",
                             "children": [
                                 {
@@ -685,6 +841,42 @@
                                             "children": "All4 - Dark mode"
                                         }
                                     ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Colour Contrast",
+            "type": "main",
+            "parent": "Accessibility",
+            "children": [
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Colour Contrast"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "aside",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "Colour Accessibility"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "We can specify a contrast ratio of 2.20:1 at least for the Net and Background. This page documents the recommended pairings of colours and the contrast ratio."
                                 }
                             ]
                         }

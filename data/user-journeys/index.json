@@ -1,18 +1,15 @@
 {
     "title": "User Journeys",
-    "createdAt": "09-12-2019",
-    "lastEdited": "09-12-2019",
     "pages": [
         {
             "title": "Overview",
-            "overview": true,
             "type": "main",
             "children": [
                 {
                     "type": "section",
                     "align": "center",
                     "background": {
-                        "color": "#EB498D",
+                        "color": "light.pink",
                         "asset": {
                             "type": "image",
                             "src": "/user-journeys/user-journeys-divider.jpg"

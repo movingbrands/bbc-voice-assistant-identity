@@ -1,13 +1,14 @@
 import { get } from '@ngard/tiny-get'
 import { parseHex, parseNumberToHex, parseRGBString } from "Utils/parse";
 import { constrain } from "Utils/number";
-import { colors } from 'Constants'
+import { colors, printColors } from 'Constants'
 
 export class Color {
   r = 0.0;
   g = 0.0;
   b = 0.0;
   a = 1.0;
+  presetColor = false;
 
   constructor(value, meta) {
     if (value instanceof Color) {
@@ -15,6 +16,7 @@ export class Color {
     }
     if (meta) this.meta = meta;
     if (typeof get(colors, value) === "string") {
+      this.presetColor = value
       this.hex = get(colors, value)
     }
     else if (typeof value === "string") {
@@ -76,7 +78,10 @@ export class Color {
     })
     return result[0] * 0.2126 + result[1] * 0.7152 + result[2] * 0.0722;
   }
-
+  get printColors() {
+    const p = get(printColors, this.presetColor)
+    return typeof p === 'object' ? p : false
+  }
   get style() {
     if (this.a !== 1.0) {
       return `rgba(${parseInt(this.r * 255.0, 10)}, ${parseInt(
