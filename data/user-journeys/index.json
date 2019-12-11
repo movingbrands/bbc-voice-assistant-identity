@@ -51,6 +51,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_01.mp4"
                                 }
                             ]
@@ -81,6 +82,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_02.mp4"
                                 }
                             ]
@@ -111,6 +113,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_03b.mp4"
                                 }
                             ]
@@ -151,6 +154,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_04a.mp4"
                                 }
                             ]
@@ -191,6 +195,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_04b.mp4"
                                 }
                             ]
@@ -221,6 +226,7 @@
                             "children": [
                                 {
                                     "type": "video",
+                                    "controls": true,
                                     "src": "/user-journeys/BBC_User_Journey_05.mp4"
                                 }
                             ]
