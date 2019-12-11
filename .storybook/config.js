@@ -1,25 +1,9 @@
 import { configure, addParameters } from "@storybook/react";
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
-import { generateSectionStory } from './utils/generateStory'
 
-import "./global.css";
 import theme from "./theme";
 
-import introduction from '../data/introduction/index.json'
-import colour from '../data/colour/index.json'
-import typography from '../data/typography/index.json'
-import motion from '../data/motion/index.json'
-import grid from '../data/grid/index.json'
-import userJourneys from '../data/user-journeys/index.json'
-
-const loadStories = () => {
-  generateSectionStory(introduction)
-  generateSectionStory(colour)
-  generateSectionStory(typography)
-  generateSectionStory(motion)
-  generateSectionStory(grid)
-  generateSectionStory(userJourneys)
-};
+import "./global.css";
 
 addParameters({
   options: {
@@ -35,5 +19,12 @@ addParameters({
   }
 });
 
-configure(loadStories, module);
+configure(() => {
+  require('../stories/introduction/introduction.story')
+  require('../stories/colour/colour.story')
+  require('../stories/motion/motion.story')
+  require('../stories/grid/grid.story')
+  require('../stories/typography/typography.story')
+  require('../stories/user-journeys/user-journeys.story')
+}, module);
 

@@ -1,0 +1,128 @@
+{
+    "title": "Introduction",
+    "pages": [
+        {
+            "title": "Overview",
+            "type": "main",
+            "parent": "Introduction",
+            "children": [
+                {
+                    "type": "section",
+                    "align": "center",
+                    "backgroundColor": "dark.purple",
+                    "backgroundAsset": {
+                        "type": "image",
+                        "src": "/introduction/introduction-divider.jpg"
+                    },
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "p",
+                                    "children": [
+                                        {
+                                            "type": "h3",
+                                            "bold": true,
+                                            "children": "BBC Voice Assistant"
+                                        },
+                                        {
+                                            "type": "h1",
+                                            "children": "Introduction"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "downArrow"
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "backgroundColor": "dark.purple",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "children": "An exchange beyond words",
+                                            "bold": true
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "We believe in everyone’s story and voice, individual or collective. Whatever your ambitions – from the everyday ordinary things like asking for the weather or for your family’s favourite show on iPlayer to the bigger questions you want to untangle; an exchange with Beeb goes beyond words.  We’ll help put you on the right path to get you to where you need. Your experience is enriched by you and what you do next."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "aside",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "bold": true,
+                                            "children": "Our Values"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Empowering"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Energetic"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Confident"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Boundless"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Surprising"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Expansive possibilities"
+                                        },
+                                        {
+                                            "type": "p",
+                                            "children": "Effortless"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "backgroundColor": "dark.purple",
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h3",
+                                    "children": "Our brand takes inspiration from the BBC blocks and extends them into a living organism that can exhibit a range of behaviours.",
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "image",
+                            "src": "/introduction/net-diagram.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

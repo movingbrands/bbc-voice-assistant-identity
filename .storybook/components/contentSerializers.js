@@ -13,7 +13,7 @@ import { Main } from './blocks/Main'
 import { Aside } from './blocks/Aside'
 import { ColourSwatch, Swatch } from './blocks/Swatch'
 
-const defaultSerializers = {
+const contentSerializers = {
     h1: Type.H1,
     h2: Type.H2,
     h3: Type.H3,
@@ -34,4 +34,4 @@ const defaultSerializers = {
     downArrow: DownArrow
 }
 
-export default defaultSerializers
+export default contentSerializers

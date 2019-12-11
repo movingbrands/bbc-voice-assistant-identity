@@ -1,0 +1,470 @@
+{
+    "title": "Grid",
+    "pages": [
+        {
+            "title": "Overview",
+            "type": "main",
+            "children": [
+                {
+                    "type": "section",
+                    "align": "center",
+                    "backgroundColor": "dark.green",
+                    "backgroundAsset": {
+                        "type": "image",
+                        "src": "/grid/grid-divider.jpg"
+                    },
+                    "children": [
+                        {
+                            "type": "header",
+                            "children": [
+                                {
+                                    "type": "h1",
+                                    "children": "Grid"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "downArrow"
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "backgroundColor": "dark.green",
+                    "children": [
+                        {
+                            "type": "header",
+                            "marginBottom": true,
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Principles"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "as": "ol",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": "We use an 8.333% column grid, split into 4 quarters top to bottom."
+                                },
+                                {
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": "We use 8px margins and gutters for devices up to 399px in width. We use 16px margins and gutters for any device wider."
+                                },
+                                {
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": "We place typography in the lower quarter of the grid, centred."
+                                },
+                                {
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": "We place the net in the top three quarters of the grid. The net only enters the lower quarter in moments of transition."
+                                },
+                                {
+                                    "type": "box",
+                                    "as": "li",
+                                    "children": "We use the centre half of the top three quarters of the grid as a hot-spot for motion."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "backgroundColor": "text.white",
+                    "children": [
+                        {
+                            "type": "header",
+                            "marginBottom": true,
+                            "children": [
+                                {
+                                    "type": "h2",
+                                    "bold": "true",
+                                    "children": "Overview"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "children": [
+                                {
+                                    "type": "aside",
+                                    "children": [
+                                        {
+                                            "type": "p",
+                                            "style": {
+                                                "paddingBottom": "1em"
+                                            },
+                                            "children": "We use an 8.333% column grid system. We then split the screen into quarters, from top to bottom."
+                                        },
+                                        {
+                                            "type": "p",
+                                            "style": {
+                                                "paddingBottom": "1em"
+                                            },
+                                            "children": "This allows us to create consistent layouts and to divide the space effectively between type and motion."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "style": {
+                                        "maxWidth": "100%"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-overview.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Margins",
+            "type": "section",
+            "parent": "Grid system",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Margins"
+                        }
+                    ]
+                },
+                {
+                    "type": "grid",
+                    "align": "flex-end",
+                    "columns": 1,
+                    "children": [
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "16%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-small.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": "<599px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "8px margins and gutters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "51%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-large.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": ">600px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "16px margins and gutters"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "33%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-medium.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "children": ">600px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "16px margins and gutters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Typography",
+            "type": "section",
+            "parent": "Grid system",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": "true",
+                            "children": "Typography"
+                        }
+                    ]
+                },
+                {
+                    "type": "grid",
+                    "align": "flex-end",
+                    "columns": 1,
+                    "children": [
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "16%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-typography-small.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "style": {
+                                        "paddingBottom": "1em"
+                                    },
+                                    "children": "<599px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Type Size- 16px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Leading- 22px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Tracking- 0px"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "51%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-typography-large.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "style": {
+                                        "paddingBottom": "1em"
+                                    },
+                                    "children": ">600px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Type Size- 18px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Leading- 24px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Tracking- 0px"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "style": {
+                                "width": "33%"
+                            },
+                            "children": [
+                                {
+                                    "type": "image",
+                                    "src": "/grid/grid-typography-medium.jpg"
+                                },
+                                {
+                                    "type": "p",
+                                    "bold": true,
+                                    "style": {
+                                        "paddingBottom": "1em"
+                                    },
+                                    "children": ">600px Screen"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Type Size- 20px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Leading- 27px"
+                                },
+                                {
+                                    "type": "p",
+                                    "children": "Tracking- 0px"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Motion",
+            "type": "section",
+            "parent": "Grid system",
+            "children": [
+                {
+                    "type": "header",
+                    "marginBottom": true,
+                    "children": [
+                        {
+                            "type": "h2",
+                            "bold": true,
+                            "children": "Motion"
+                        }
+                    ]
+                },
+                {
+                    "type": "aside",
+                    "children": [
+                        {
+                            "type": "p",
+                            "style": {
+                                "paddingBottom": "1em"
+                            },
+                            "children": "We place the net in the top three quarters of the grid."
+                        },
+                        {
+                            "type": "p",
+                            "children": "The net only enters the lower quarter in moments of transition."
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "grid",
+                            "align": "flex-end",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-1-small.jpg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-1-large.jpg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-1-medium.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "aside",
+                    "children": [
+                        {
+                            "type": "p",
+                            "style": {
+                                "paddingBottom": "1em"
+                            },
+                            "children": "We use the centre half of the top three quarters of the grid as the main focus point for motion of the net."
+                        },
+                        {
+                            "type": "p",
+                            "children": "This ensures motion doesn’t become overwhelming for the user."
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "children": [
+                        {
+                            "type": "grid",
+                            "align": "flex-end",
+                            "children": [
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-2-small.jpg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-2-large.jpg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "box",
+                                    "children": [
+                                        {
+                                            "type": "image",
+                                            "src": "/grid/grid-motion-2-medium.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
