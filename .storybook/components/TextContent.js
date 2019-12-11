@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import * as Type from "Components/Typography";
+import { DownArrow } from "./DownArrow";
 import styled, { css } from 'styled-components'
 import { Color } from 'Utils/Color'
 import { colors } from 'Constants'
@@ -99,12 +100,12 @@ const Small = ({ children, ...rest }) =>
 Small.defaultProps = {
   gel: "minion"
 }
-const dynamicColourStyles = ({ backgroundColor, color }) => {
-  console.log(backgroundColor, color)
-  return css`
+const dynamicColourStyles = ({ backgroundColor, color }) =>
+  css`
     ${backgroundColor ? `background-color: ${new Color(backgroundColor).style};` : ''}
     ${color ? `color: ${new Color(color).style};` : ''}
-    `}
+    ${color ? `fill: ${new Color(color).style};` : ''}
+    `
 
 const Article = ({ columns, ...rest }) => {
   return <StyledArticle columns={columns || rest.children.length} {...rest} />
@@ -237,7 +238,8 @@ const serializers = {
   small: Small,
   videoWrapper: StyledVideoWrapper,
   typographyContrastSwatch: TypographyContrastSwatch,
-  colourPalette: ColourPalette
+  colourPalette: ColourPalette,
+  downArrow: DownArrow
 }
 
 export const TextContent = ({ parentKey, children, type, nesting, ...rest }) => {

@@ -24,6 +24,9 @@
                                     "children": "Motion"
                                 }
                             ]
+                        },
+                        {
+                            "type": "downArrow"
                         }
                     ]
                 },
