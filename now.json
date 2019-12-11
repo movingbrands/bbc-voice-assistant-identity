@@ -8,20 +8,5 @@
   "github": {
     "enabled": true,
     "autoAlias": true
-  },
-  "builds": [
-    {
-      "src": "now-server.js",
-      "use": "@now/node",
-      "config": {
-        "includeFiles": ["storybook-static/**/*.js"]
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/.*",
-      "dest": "now-server.js"
-    }
-  ]
+  }
 }
