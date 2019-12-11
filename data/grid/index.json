@@ -8,12 +8,10 @@
                 {
                     "type": "section",
                     "align": "center",
-                    "background": {
-                        "color": "dark.green",
-                        "asset": {
-                            "type": "image",
-                            "src": "/grid/grid-divider.jpg"
-                        }
+                    "backgroundColor": "dark.green",
+                    "backgroundAsset": {
+                        "type": "image",
+                        "src": "/grid/grid-divider.jpg"
                     },
                     "children": [
                         {
@@ -32,9 +30,7 @@
                 },
                 {
                     "type": "section",
-                    "background": {
-                        "color": "dark.green"
-                    },
+                    "backgroundColor": "dark.green",
                     "children": [
                         {
                             "type": "header",
@@ -82,9 +78,7 @@
                 },
                 {
                     "type": "section",
-                    "background": {
-                        "color": "text.white"
-                    },
+                    "backgroundColor": "text.white",
                     "children": [
                         {
                             "type": "header",

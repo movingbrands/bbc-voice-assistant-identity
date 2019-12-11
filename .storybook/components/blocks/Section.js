@@ -32,17 +32,22 @@ const StyledSection = styled.section`
 const Asset = props =>
   props.type === 'video' ? <Video {...props} /> : <Image {...props} />
 
-export const Section = ({ children, align, background }) => {
-  const bg = new Color(background.color)
+export const Section = ({
+  children,
+  align,
+  backgroundColor,
+  backgroundAsset
+}) => {
+  const bg = new Color(backgroundColor)
   return (
     <StyledSection
       align={align}
-      backgroundColor={!background.asset && bg}
+      backgroundColor={!backgroundAsset && bg}
       color={bg.isDark ? colors.text.white : colors.text.darkgrey}>
-      {background.asset && (
+      {backgroundAsset && (
         <StyledBackground
           backgroundColor={bg}>
-          <Asset {...background.asset} />
+          <Asset {...backgroundAsset} />
         </StyledBackground>
       )}
       {children}
@@ -52,7 +57,6 @@ export const Section = ({ children, align, background }) => {
 
 Section.defaultProps = {
   align: "flex-start",
-  background: {
-    color: "#FFFFFF"
-  }
+  backgroundAsset: false,
+  backgroundColor: "#FFFFFF"
 }

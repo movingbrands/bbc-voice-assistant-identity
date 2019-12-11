@@ -8,12 +8,10 @@
                 {
                     "type": "section",
                     "align": "center",
-                    "background": {
-                        "color": "light.pink",
-                        "asset": {
-                            "type": "image",
-                            "src": "/user-journeys/user-journeys-divider.jpg"
-                        }
+                    "backgroundColor": "light.pink",
+                    "backgroundAsset": {
+                        "type": "image",
+                        "src": "/user-journeys/user-journeys-divider.jpg"
                     },
                     "children": [
                         {

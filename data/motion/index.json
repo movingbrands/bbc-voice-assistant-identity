@@ -8,12 +8,10 @@
                 {
                     "type": "section",
                     "align": "center",
-                    "background": {
-                        "color": "light.purple",
-                        "asset": {
-                            "type": "video",
-                            "src": "/motion/motion-divider.mp4"
-                        }
+                    "backgroundColor": "light.purple",
+                    "backgroundAsset": {
+                        "type": "video",
+                        "src": "/motion/motion-divider.mp4"
                     },
                     "children": [
                         {
@@ -32,9 +30,7 @@
                 },
                 {
                     "type": "section",
-                    "background": {
-                        "color": "light.purple"
-                    },
+                    "backgroundColor": "light.purple",
                     "children": [
                         {
                             "type": "header",
@@ -66,9 +62,7 @@
                 },
                 {
                     "type": "section",
-                    "background": {
-                        "color": "light.purple"
-                    },
+                    "backgroundColor": "light.purple",
                     "children": [
                         {
                             "type": "header",

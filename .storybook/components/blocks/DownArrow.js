@@ -29,5 +29,5 @@ const StyledSVG = styled.svg`
 export const DownArrow = () =>
     <StyledSVG
         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-        <polygon class="a" points="25 40 41 14 33.84 14 25 29.32 16.16 14 9 14 25 40" />
+        <polygon points="25 40 41 14 33.84 14 25 29.32 16.16 14 9 14 25 40" />
     </StyledSVG>

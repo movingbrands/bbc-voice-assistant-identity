@@ -8,12 +8,10 @@
                 {
                     "type": "section",
                     "align": "center",
-                    "background": {
-                        "color": "light.orange",
-                        "asset": {
-                            "type": "image",
-                            "src": "/typography/typography-divider.jpg"
-                        }
+                    "backgroundColor": "light.orange",
+                    "backgroundAsset": {
+                        "type": "image",
+                        "src": "/typography/typography-divider.jpg"
                     },
                     "children": [
                         {
@@ -32,9 +30,7 @@
                 },
                 {
                     "type": "section",
-                    "background": {
-                        "color": "light.orange"
-                    },
+                    "backgroundColor": "light.orange",
                     "children": [
                         {
                             "type": "header",
