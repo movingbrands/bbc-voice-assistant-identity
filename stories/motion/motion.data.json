@@ -1,1112 +1,1112 @@
 {
-    "title": "Motion",
-    "pages": [
+  "title": "Motion",
+  "pages": [
+    {
+      "title": "Overview",
+      "type": "main",
+      "children": [
         {
-            "title": "Overview",
-            "type": "main",
-            "children": [
+          "type": "section",
+          "align": "center",
+          "backgroundColor": "light.purple",
+          "backgroundAsset": {
+            "type": "video",
+            "src": "/motion/motion-divider.mp4"
+          },
+          "children": [
+            {
+              "type": "header",
+              "children": [
                 {
-                    "type": "section",
-                    "align": "center",
-                    "backgroundColor": "light.purple",
-                    "backgroundAsset": {
-                        "type": "video",
-                        "src": "/motion/motion-divider.mp4"
+                  "type": "h1",
+                  "children": "Motion"
+                }
+              ]
+            },
+            {
+              "type": "downArrow"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "backgroundColor": "light.purple",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Motion of the Assistant"
                     },
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h1",
-                                    "children": "Motion"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "downArrow"
-                        }
-                    ]
+                    {
+                      "type": "p",
+                      "style": {
+                        "marginBottom": "1em"
+                      },
+                      "children": "The grid framework allows a range of behaviours, helping to establish a visual language that feels expressive and varied."
+                    },
+                    {
+                      "type": "p",
+                      "children": "It provides a basis to create animations that are at times functional and at times highly expressive   ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "backgroundColor": "light.purple",
+          "children": [
+            {
+              "type": "header",
+              "marginBottom": true,
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Principles"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "as": "ol",
+              "children": [
+                {
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Size"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "(Small to Large)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "This refers to the size of any given Minim on screen."
+                    }
+                  ]
                 },
                 {
-                    "type": "section",
-                    "backgroundColor": "light.purple",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Motion of the Assistant"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "style": {
-                                                "marginBottom": "1em"
-                                            },
-                                            "children": "The grid framework allows a range of behaviours, helping to establish a visual language that feels expressive and varied."
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "It provides a basis to create animations that are at times functional and at times highly expressive   ."
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Density"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "(Dispersed to Dense)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "This is the number of Minims occupying the Net and has a fixed relationship with the size of the Minim i.e. the greater the size of Minim the lower the density and vice versa."
+                    }
+                  ]
                 },
                 {
-                    "type": "section",
-                    "backgroundColor": "light.purple",
-                    "children": [
-                        {
-                            "type": "header",
-                            "marginBottom": true,
-                            "children": [
-                                {
-                                    "type": "h2",
-                                    "bold": "true",
-                                    "children": "Principles"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "as": "ol",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Size"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "(Small to Large)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "This refers to the size of any given Minim on screen."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Density"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "(Dispersed to Dense)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "This is the number of Minims occupying the Net and has a fixed relationship with the size of the Minim i.e. the greater the size of Minim the lower the density and vice versa."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Position"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "(Structured to Organic)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "This is the amount of movement attributed to individual Minim as part of the entire Net."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Speed"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "(Calm to Energetic)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "This describes the velocity with which an individual Minim moves in relation to the Net."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Shape"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "This is used to describe the visual footprint of the Minim’s on-screen."
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Density and size",
-            "type": "main",
-            "children": [
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Position"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "(Structured to Organic)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "This is the amount of movement attributed to individual Minim as part of the entire Net."
+                    }
+                  ]
+                },
                 {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "We cap the density and size we use within the scale"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Aim to use these densities in the following ratios"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "align": "flex-start",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-too-dense.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Too dense"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Never used"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "gel": "canon",
-                                            "style": {
-                                                "marginTop": "1em"
-                                            },
-                                            "children": "0%"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "style": {
-                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-dense.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Dense"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Used rarely"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "gel": "canon",
-                                            "style": {
-                                                "marginTop": "1em"
-                                            },
-                                            "children": "10%"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "style": {
-                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-quite-dense.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Quite dense"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Used often"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "gel": "canon",
-                                            "style": {
-                                                "marginTop": "1em"
-                                            },
-                                            "children": "80%"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-medium-density.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Medium density"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Used often"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-quite-dispersed.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Quite dispersed"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Used often"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "style": {
-                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-dispersed.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Dispersed"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Used rarely"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "gel": "canon",
-                                            "style": {
-                                                "marginTop": "1em"
-                                            },
-                                            "children": "10%"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "style": {
-                                        "borderLeft": "1px solid rgba(0,0,0,0.15)"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/density-and-size/motion-too-dispersed.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Too dispersed"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Never used"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "gel": "canon",
-                                            "style": {
-                                                "marginTop": "1em"
-                                            },
-                                            "children": "0%"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Emotive Responses - Groupings",
-            "type": "main",
-            "children": [
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Speed"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "(Calm to Energetic)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "This describes the velocity with which an individual Minim moves in relation to the Net."
+                    }
+                  ]
+                },
                 {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "marginBottom": true,
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "We can place Emotive Responses into 5 groupings"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "These can be added to in order to evolve with the Assistant’s personality"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "Positive"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Playing"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Excited/Energetic"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Happy/Jolly"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Love"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Partying"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Funny/Laughing"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Cheeky/sly"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "Passive"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Neutral"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Calm/Serious"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Quiet/Silent"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Secretive/whisper"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Curious"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Searching"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Sleeping"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Thinking"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "Negative"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Error (system)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Urgent"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Warning"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Error (not available)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Negative (cancelled/removed)"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Meltdown"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "Active"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Listening"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Neutral"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Helping"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Playing"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Excited/Energetic"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Happy/Jolly"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Love"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Waking Up"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "Subdued"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Calm/Serious"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Quiet/Silent"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Secretive/whisper"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Searching"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Sleeping"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Sad"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Sorry"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Tired"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Goodbye"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Bored/Unimpressed"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Waiting"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Shape"
+                    },
+                    {
+                      "type": "p",
+                      "children": "This is used to describe the visual footprint of the Minim’s on-screen."
+                    }
+                  ]
                 }
-            ]
-        },
-        {
-            "title": "Active",
-            "type": "main",
-            "parent": "Motion Library",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Active"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "columns": 5,
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Active_Helping_+TEXT.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Helping"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Active_Thinking+TEXT.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Thinking"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Active+TEXT-V01.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "UNDEFINED"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Negative",
-            "type": "main",
-            "parent": "Motion Library",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Negative"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "columns": 5,
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Negative+TEXT-V01.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "UNDEFINED"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/02_Error+TEXT-V01.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Error"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Subdued",
-            "type": "main",
-            "parent": "Motion Library",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Subdued"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "columns": 5,
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Subdued_Quiet.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Quiet"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Subdued_Tired.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Tired"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Positive",
-            "type": "main",
-            "parent": "Motion Library",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Positive"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "columns": 5,
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Positive_Partying_+TEXT.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Partying"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/emotive-responses/teal/00_Positive_Sly-Cheeky+TEXT.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Sly"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Transitions",
-            "type": "main",
-            "parent": "Motion Library",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Transitions"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "columns": 5,
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/transitions/00_Active_Transition+TEXT_V02.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Transition 1"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/transitions/00_Active_Transition+TEXT.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Transition 2"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "video",
-                                            "src": "/motion/transitions/04_Transition_Bright_Colour_03.mp4"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Transition 3"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Examples",
-            "type": "main",
-            "parent": "Reduced motion",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Reduced motion"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "When motion is turned off we can use a hero set of stills that indicate the different states of the assistant"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-positive.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Positive"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-passive.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Passive"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-negative.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Negative"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-active.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Active"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-subdued.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Subdued"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/motion/reduced-motion-user-talking.jpg"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "User talking"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "Density and size",
+      "type": "main",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "We cap the density and size we use within the scale"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Aim to use these densities in the following ratios"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "align": "flex-start",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-too-dense.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Too dense"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Never used"
+                    },
+                    {
+                      "type": "p",
+                      "gel": "canon",
+                      "style": {
+                        "marginTop": "1em"
+                      },
+                      "children": "0%"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "style": {
+                    "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                  },
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-dense.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Dense"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Used rarely"
+                    },
+                    {
+                      "type": "p",
+                      "gel": "canon",
+                      "style": {
+                        "marginTop": "1em"
+                      },
+                      "children": "10%"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "style": {
+                    "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                  },
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-quite-dense.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Quite dense"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Used often"
+                    },
+                    {
+                      "type": "p",
+                      "gel": "canon",
+                      "style": {
+                        "marginTop": "1em"
+                      },
+                      "children": "80%"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-medium-density.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Medium density"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Used often"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-quite-dispersed.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Quite dispersed"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Used often"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "style": {
+                    "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                  },
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-dispersed.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Dispersed"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Used rarely"
+                    },
+                    {
+                      "type": "p",
+                      "gel": "canon",
+                      "style": {
+                        "marginTop": "1em"
+                      },
+                      "children": "10%"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "style": {
+                    "borderLeft": "1px solid rgba(0,0,0,0.15)"
+                  },
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/density-and-size/motion-too-dispersed.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Too dispersed"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Never used"
+                    },
+                    {
+                      "type": "p",
+                      "gel": "canon",
+                      "style": {
+                        "marginTop": "1em"
+                      },
+                      "children": "0%"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Emotive Responses - Groupings (WIP)",
+      "type": "main",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "marginBottom": true,
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "We can place Emotive Responses into 5 groupings"
+                    },
+                    {
+                      "type": "p",
+                      "children": "These can be added to in order to evolve with the Assistant’s personality"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "style": {
+                        "paddingBottom": "1em"
+                      },
+                      "children": "Positive"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Playing"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Excited/Energetic"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Happy/Jolly"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Love"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Partying"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Funny/Laughing"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Cheeky/sly"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "style": {
+                        "paddingBottom": "1em"
+                      },
+                      "children": "Passive"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Neutral"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Calm/Serious"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Quiet/Silent"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secretive/whisper"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Curious"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Searching"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Sleeping"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Thinking"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "style": {
+                        "paddingBottom": "1em"
+                      },
+                      "children": "Negative"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Error (system)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Urgent"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Warning"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Error (not available)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Negative (cancelled/removed)"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Meltdown"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "style": {
+                        "paddingBottom": "1em"
+                      },
+                      "children": "Active"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Listening"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Neutral"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Helping"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Playing"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Excited/Energetic"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Happy/Jolly"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Love"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Waking Up"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "style": {
+                        "paddingBottom": "1em"
+                      },
+                      "children": "Subdued"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Calm/Serious"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Quiet/Silent"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secretive/whisper"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Searching"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Sleeping"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Sad"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Sorry"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Tired"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Goodbye"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Bored/Unimpressed"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Waiting"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Active",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Active"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Active_Helping_+TEXT.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Helping"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Active_Thinking+TEXT.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Thinking"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Active+TEXT-V01.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "UNDEFINED"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Negative",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Negative"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Negative+TEXT-V01.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "UNDEFINED"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/02_Error+TEXT-V01.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Error"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Subdued",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Subdued"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Subdued_Quiet.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Quiet"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Subdued_Tired.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Tired"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Positive",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Positive"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Positive_Partying_+TEXT.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Partying"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/teal/00_Positive_Sly-Cheeky+TEXT.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Sly"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Transitions",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Transitions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/transitions/00_Active_Transition+TEXT_V02.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Transition 1"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/transitions/00_Active_Transition+TEXT.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Transition 2"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/transitions/04_Transition_Bright_Colour_03.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Transition 3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Examples",
+      "type": "main",
+      "parent": "Reduced motion",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Reduced motion"
+                    },
+                    {
+                      "type": "p",
+                      "children": "When motion is turned off we can use a hero set of stills that indicate the different states of the assistant"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-positive.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Positive"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-passive.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Passive"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-negative.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Negative"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-active.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Active"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-subdued.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Subdued"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/motion/reduced-motion-user-talking.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "User talking"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
