@@ -1,12 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
-import { colors } from 'Constants'
+import { colors } from "Constants";
 
-import { dynamicColourStyles } from '../../utils/styledUtils'
-import { Color } from 'Utils/Color'
-import { Video } from './Video'
-import { Image } from './Image'
+import { dynamicColourStyles } from "../../utils/styledUtils";
+import { Color } from "Utils/Color";
+import { Video } from "./Video";
+import { Image } from "./Image";
 
 const StyledBackground = styled.div`
   width: 100%;
@@ -16,7 +16,7 @@ const StyledBackground = styled.div`
   left: 0;
   z-index: -1;
   ${dynamicColourStyles}
-`
+`;
 
 const StyledSection = styled.section`
   width: 100%;
@@ -27,10 +27,10 @@ const StyledSection = styled.section`
   flex-direction: column;
   ${dynamicColourStyles}
   ${props => `justify-content: ${props.align}`};
-`
+`;
 
 const Asset = props =>
-  props.type === 'video' ? <Video {...props} /> : <Image {...props} />
+  props.type === "video" ? <Video {...props} /> : <Image {...props} />;
 
 export const Section = ({
   children,
@@ -38,25 +38,25 @@ export const Section = ({
   backgroundColor,
   backgroundAsset
 }) => {
-  const bg = new Color(backgroundColor)
+  const bg = new Color(backgroundColor);
   return (
     <StyledSection
       align={align}
       backgroundColor={!backgroundAsset && bg}
-      color={bg.isDark ? colors.text.white : colors.text.darkgrey}>
+      color={bg.isDark ? colors.text.white : colors.text.darkgrey}
+    >
       {backgroundAsset && (
-        <StyledBackground
-          backgroundColor={bg}>
+        <StyledBackground backgroundColor={bg}>
           <Asset {...backgroundAsset} />
         </StyledBackground>
       )}
       {children}
     </StyledSection>
-  )
-}
+  );
+};
 
 Section.defaultProps = {
   align: "flex-start",
   backgroundAsset: false,
-  backgroundColor: "#FFFFFF"
-}
+  backgroundColor: "text.white"
+};
