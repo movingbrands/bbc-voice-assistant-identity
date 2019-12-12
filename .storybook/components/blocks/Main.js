@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
-import { dynamicColourStyles } from '../../utils/styledUtils'
+import { dynamicColourStyles } from "../../utils/styledUtils";
 
 export const StyledMain = styled.main`
   width: 100%;
@@ -11,8 +11,6 @@ export const StyledMain = styled.main`
   left: 0;
   overflow-y: scroll;
   ${dynamicColourStyles}
-`
+`;
 
-const Main = props =>
-    <StyledMain {...props} />
-
+export const Main = props => <StyledMain {...props} />;

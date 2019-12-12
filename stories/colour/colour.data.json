@@ -1,470 +1,1030 @@
 {
-    "title": "Grid",
-    "pages": [
+  "title": "Colour",
+  "pages": [
+    {
+      "title": "Overview",
+      "type": "main",
+      "children": [
         {
-            "title": "Overview",
-            "type": "main",
-            "children": [
+          "type": "section",
+          "align": "center",
+          "backgroundColor": "light.green",
+          "backgroundAsset": {
+            "type": "image",
+            "src": "/colour/colour-divider.jpg"
+          },
+          "children": [
+            {
+              "type": "header",
+              "children": [
                 {
-                    "type": "section",
-                    "align": "center",
-                    "backgroundColor": "dark.green",
-                    "backgroundAsset": {
-                        "type": "image",
-                        "src": "/grid/grid-divider.jpg"
-                    },
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h1",
-                                    "children": "Grid"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "downArrow"
-                        }
-                    ]
-                },
-                {
-                    "type": "section",
-                    "backgroundColor": "dark.green",
-                    "children": [
-                        {
-                            "type": "header",
-                            "marginBottom": true,
-                            "children": [
-                                {
-                                    "type": "h2",
-                                    "bold": "true",
-                                    "children": "Principles"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "as": "ol",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": "We use an 8.333% column grid, split into 4 quarters top to bottom."
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": "We use 8px margins and gutters for devices up to 399px in width. We use 16px margins and gutters for any device wider."
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": "We place typography in the lower quarter of the grid, centred."
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": "We place the net in the top three quarters of the grid. The net only enters the lower quarter in moments of transition."
-                                },
-                                {
-                                    "type": "box",
-                                    "as": "li",
-                                    "children": "We use the centre half of the top three quarters of the grid as a hot-spot for motion."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "section",
-                    "backgroundColor": "text.white",
-                    "children": [
-                        {
-                            "type": "header",
-                            "marginBottom": true,
-                            "children": [
-                                {
-                                    "type": "h2",
-                                    "bold": "true",
-                                    "children": "Overview"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "grid",
-                            "children": [
-                                {
-                                    "type": "aside",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "We use an 8.333% column grid system. We then split the screen into quarters, from top to bottom."
-                                        },
-                                        {
-                                            "type": "p",
-                                            "style": {
-                                                "paddingBottom": "1em"
-                                            },
-                                            "children": "This allows us to create consistent layouts and to divide the space effectively between type and motion."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "style": {
-                                        "maxWidth": "100%"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-overview.jpg"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "h1",
+                  "children": "Colour"
                 }
-            ]
+              ]
+            },
+            {
+              "type": "downArrow"
+            }
+          ]
         },
         {
-            "title": "Margins",
-            "type": "section",
-            "parent": "Grid system",
-            "children": [
+          "type": "section",
+          "backgroundColor": "light.green",
+          "children": [
+            {
+              "type": "header",
+              "marginBottom": true,
+              "children": [
                 {
-                    "type": "header",
-                    "marginBottom": true,
-                    "children": [
-                        {
-                            "type": "h2",
-                            "bold": "true",
-                            "children": "Margins"
-                        }
-                    ]
-                },
-                {
-                    "type": "grid",
-                    "align": "flex-end",
-                    "columns": 1,
-                    "children": [
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "16%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-small.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "children": "<599px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "8px margins and gutters"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "51%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-large.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "children": ">600px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "16px margins and gutters"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "33%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-medium.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "children": ">600px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "16px margins and gutters"
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Principles"
                 }
-            ]
-        },
-        {
-            "title": "Typography",
-            "type": "section",
-            "parent": "Grid system",
-            "children": [
+              ]
+            },
+            {
+              "type": "grid",
+              "as": "ol",
+              "columns": 5,
+              "children": [
                 {
-                    "type": "header",
-                    "marginBottom": true,
-                    "children": [
-                        {
-                            "type": "h2",
-                            "bold": "true",
-                            "children": "Typography"
-                        }
-                    ]
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "children": "We use colour of the net to distinguish between the Assistant and the User."
+                    }
+                  ]
                 },
                 {
-                    "type": "grid",
-                    "align": "flex-end",
-                    "columns": 1,
-                    "children": [
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "16%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-typography-small.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "style": {
-                                        "paddingBottom": "1em"
-                                    },
-                                    "children": "<599px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Type Size- 16px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Leading- 22px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Tracking- 0px"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "51%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-typography-large.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "style": {
-                                        "paddingBottom": "1em"
-                                    },
-                                    "children": ">600px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Type Size- 18px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Leading- 24px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Tracking- 0px"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "box",
-                            "style": {
-                                "width": "33%"
-                            },
-                            "children": [
-                                {
-                                    "type": "image",
-                                    "src": "/grid/grid-typography-medium.jpg"
-                                },
-                                {
-                                    "type": "p",
-                                    "bold": true,
-                                    "style": {
-                                        "paddingBottom": "1em"
-                                    },
-                                    "children": ">600px Screen"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Type Size- 20px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Leading- 27px"
-                                },
-                                {
-                                    "type": "p",
-                                    "children": "Tracking- 0px"
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "children": "We use colour as signposting to distinguish between content providers."
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "children": "Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette. If these are not complementary we pair the lead provider colour with a colour from the neutral palette."
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "children": "We use different combinations of the palette to create light and dark modes."
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "as": "li",
+                  "children": [
+                    {
+                      "type": "p",
+                      "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                    }
+                  ]
                 }
-            ]
-        },
-        {
-            "title": "Motion",
-            "type": "section",
-            "parent": "Grid system",
-            "children": [
-                {
-                    "type": "header",
-                    "marginBottom": true,
-                    "children": [
-                        {
-                            "type": "h2",
-                            "bold": true,
-                            "children": "Motion"
-                        }
-                    ]
-                },
-                {
-                    "type": "aside",
-                    "children": [
-                        {
-                            "type": "p",
-                            "style": {
-                                "paddingBottom": "1em"
-                            },
-                            "children": "We place the net in the top three quarters of the grid."
-                        },
-                        {
-                            "type": "p",
-                            "children": "The net only enters the lower quarter in moments of transition."
-                        }
-                    ]
-                },
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "grid",
-                            "align": "flex-end",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-1-small.jpg"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-1-large.jpg"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-1-medium.jpg"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "aside",
-                    "children": [
-                        {
-                            "type": "p",
-                            "style": {
-                                "paddingBottom": "1em"
-                            },
-                            "children": "We use the centre half of the top three quarters of the grid as the main focus point for motion of the net."
-                        },
-                        {
-                            "type": "p",
-                            "children": "This ensures motion doesn’t become overwhelming for the user."
-                        }
-                    ]
-                },
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "grid",
-                            "align": "flex-end",
-                            "children": [
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-2-small.jpg"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-2-large.jpg"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "type": "box",
-                                    "children": [
-                                        {
-                                            "type": "image",
-                                            "src": "/grid/grid-motion-2-medium.jpg"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "Palette (WIP)",
+      "type": "section",
+      "children": [
+        {
+          "type": "header",
+          "marginBottom": true,
+          "children": [
+            {
+              "type": "h2",
+              "bold": "true",
+              "children": "Palette"
+            }
+          ]
+        },
+        {
+          "type": "aside",
+          "children": [
+            {
+              "type": "p",
+              "children": "Our palette consists of three sections:"
+            },
+            {
+              "type": "p",
+              "children": "Dark, Light and Neutral."
+            }
+          ]
+        },
+        {
+          "type": "colourPalette"
+        }
+      ]
+    },
+    {
+      "title": "Assistant and User",
+      "type": "main",
+      "parent": "Light mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Assistant and User"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Primary conversations"
+                },
+                {
+                  "type": "p",
+                  "children": "Conversations between the assistant and user uses the primary palette only."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-assistant.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Assistant - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Primary Light Green background with Primary Light Purple Net"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-user.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "User - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Primary Light Green background with Primary Dark Purple Net"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combining BBC service colours",
+      "type": "main",
+      "parent": "Light mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Combining BBC service colours & lights"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from across the BBC"
+                },
+                {
+                  "type": "p",
+                  "children": "We pair colours to distinguish between content providers. Where possible we combine BBC content provider colours with 1 or 2 colours from the light palette."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 3,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-bbc-sounds.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Sounds - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Orange with Secondary Light Yellow"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-bbc-iplayer.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC iPlayer - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Pink with Secondary Light Yellow "
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-bbc-sport.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Sport - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Yellow with Secondary Light Pink or Secondary Light Purple "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "BBC service colours and neutrals",
+      "type": "main",
+      "parent": "Light mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Combining BBC service colours & neutrals"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from across the BBC"
+                },
+                {
+                  "type": "p",
+                  "children": "When BBC colours don't compliment the light palette, we combine the lead service colour with a colour from our Neutral palette."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-neutral-bbc-weather.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Weather - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Neutral White background with Weather Blue Net"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-neutral-bbc-news.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC News - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Neutral Grey 2 background with News Red Net"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Third parties",
+      "type": "main",
+      "parent": "Light mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Third parties"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from third parties"
+                },
+                {
+                  "type": "p",
+                  "children": "When serving content from third party content providers in light mode we allow the third party brand to immerse the assistant in brand colours."
+                },
+                {
+                  "type": "small",
+                  "style": {
+                    "marginTop": "1em"
+                  },
+                  "children": "The third parties shown on this page are example cases and the assistant is not limited to these."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-netflix.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Netflix - Light mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-nhs.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "NHS - Light mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-premier-league.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Premier League - Light mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-light-all4.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "All4 - Light mode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Assistant and User",
+      "type": "main",
+      "parent": "Dark mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Assistant and User"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Primary conversations"
+                },
+                {
+                  "type": "p",
+                  "children": "Conversations between the assistant and user uses the primary palette only."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-assistant.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Assistant - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Primary Dark Purple background with Primary Light Green Net"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-user.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "User - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Primary Dark Purple background with Primary Light Purple Net"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Combining BBC service colours",
+      "type": "main",
+      "parent": "Dark mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Combining BBC service colours & darks"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from across the BBC"
+                },
+                {
+                  "type": "p",
+                  "children": "We pair colours to distinguish between content providers. Where possible we combine BBC content provider colours with 1 or 2 colours from the dark palette."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-bbc-sounds.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Sounds - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Orange with Primary Dark Purple "
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-bbc-iplayer.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC iPlayer - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Pink with Primary Dark Purple"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-bbc-sport.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Sport - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Secondary Light Yellow with Primary Dark Purple or Primary Dark Green"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "BBC service colours and dark grey",
+      "type": "main",
+      "parent": "Dark mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Combining BBC service colours & Dark Grey"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from across the BBC"
+                },
+                {
+                  "type": "p",
+                  "children": "When BBC colours don't compliment the dark palette, we combine the lead service colour with Dark Grey."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-bbc-weather.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC Weather - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Grey background with Weather Blue Net"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-bbc-news.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "BBC News - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Grey background with News Red Net"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Third parties",
+      "type": "main",
+      "parent": "Dark mode",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Third parties"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Serving content from third parties"
+                },
+                {
+                  "type": "p",
+                  "children": "When serving content from third party content providers in dark mode we combine one main brand colour of the third party, with the Dark Grey from our neutral palette."
+                },
+                {
+                  "type": "small",
+                  "style": {
+                    "marginTop": "1em"
+                  },
+                  "children": "The third parties shown on this page are example cases and the assistant is not limited to these."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-third-parties-netflix.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Netflix - Dark mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-third-parties-nhs.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "NHS - Dark mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-third-parties-premier-league.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Premier League - Dark mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-dark-third-parties-all4.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "All4 - Dark mode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sensitive mode",
+      "type": "main",
+      "parent": "Other modes",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Sensitive mode"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "children": "We can override both our light and dark mode colour logic when serving sensitive news content, such as a Category 1 Obituary. We resolve to pairing Dark Grey with the dark palette colours for a sombre tone."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-sensitive-light-1.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Sensitive - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Grey Net with Dark Purple Background"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-sensitive-light-2.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Sensitive - Light Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Grey Net with Dark Green Background"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-sensitive-dark-1.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Sensitive - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Purple Net with Dark Grey Background"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-sensitive-dark-2.jpg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Sensitive - Dark Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Dark Green Net with Dark Grey Background"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Subdued mode (WIP)",
+      "type": "main",
+      "parent": "Other modes",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Subdued mode"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "children": "For a subdued mode, when the Assistant is yet to be woken, we can pair a Grey 6 Net with Dark Grey Background, after being woken by the User."
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Colour Contrast (WIP)",
+      "type": "main",
+      "parent": "Accessibility",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h2",
+                  "bold": "true",
+                  "children": "Colour Contrast"
+                }
+              ]
+            },
+            {
+              "type": "aside",
+              "children": [
+                {
+                  "type": "p",
+                  "bold": true,
+                  "children": "Colour Accessibility"
+                },
+                {
+                  "type": "p",
+                  "children": "We can specify a contrast ratio of 2.20:1 at least for the Net and Background. This page documents the recommended pairings of colours and the contrast ratio."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
