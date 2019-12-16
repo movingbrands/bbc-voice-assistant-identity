@@ -17,7 +17,6 @@ export class Color {
     if (meta) this.meta = meta;
     if (typeof get(colors, value) === "string") {
       this.presetColor = value;
-      console.log(this.presetColor);
       this.hex = get(colors, value);
     } else if (typeof value === "string") {
       if (value.startsWith("#")) {
