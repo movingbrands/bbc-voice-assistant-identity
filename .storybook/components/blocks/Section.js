@@ -43,7 +43,7 @@ export const Section = ({
     <StyledSection
       align={align}
       backgroundColor={!backgroundAsset && bg}
-      color={bg.isDark ? colors.text.white : colors.text.darkgrey}
+      color={bg.isDark ? colors.neutral.white : colors.neutral.darkgrey}
     >
       {backgroundAsset && (
         <StyledBackground backgroundColor={bg}>
@@ -58,5 +58,5 @@ export const Section = ({
 Section.defaultProps = {
   align: "flex-start",
   backgroundAsset: false,
-  backgroundColor: "text.white"
+  backgroundColor: "neutral.white"
 };

@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Palette (WIP)",
+      "title": "Palette",
       "type": "section",
       "children": [
         {
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "title": "Subdued mode (WIP)",
+      "title": "Subdued mode",
       "type": "main",
       "parent": "Other modes",
       "children": [
@@ -984,7 +984,63 @@
             },
             {
               "type": "grid",
-              "children": []
+              "columns": 4,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-subdued-1.svg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Subdued Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Grey 6 Net with Dark Grey Background"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-subdued-2.svg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Wake Up"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Teal Net floods the screen, in response to being woken up by User"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/colour/colour-subdued-3.svg"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Listening Mode"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Purple Net on Teal background"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1019,6 +1075,146 @@
                 {
                   "type": "p",
                   "children": "We can specify a contrast ratio of 2.20:1 at least for the Net and Background. This page documents the recommended pairings of colours and the contrast ratio."
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "children": [
+                {
+                  "type": "header",
+                  "children": [
+                    {
+                      "type": "h3",
+                      "children": "Light mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "light.purple",
+                  "color": "light.green",
+                  "contrastTest": true,
+                  "children": "Assistant"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "light.purple",
+                  "color": "dark.purple",
+                  "contrastTest": true,
+                  "children": "User"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "color": "brands.Sounds",
+                  "backgroundColor": "light.yellow",
+                  "contrastTest": true,
+                  "children": "BBC Sounds"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "brands.iPlayer",
+                  "color": "light.yellow",
+                  "contrastTest": true,
+                  "children": "BBC iPlayer"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "light.purple",
+                  "color": "brands.Sport",
+                  "contrastTest": true,
+                  "children": "BBC Sport"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "light.pink",
+                  "color": "brands.Sport",
+                  "contrastTest": true,
+                  "children": "BBC Sport"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "neutral.white",
+                  "color": "brands.Weather",
+                  "contrastTest": true,
+                  "children": "BBC Weather"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "neutral.grey1",
+                  "color": "brands.News",
+                  "contrastTest": true,
+                  "children": "BBC News"
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "children": [
+                {
+                  "type": "header",
+                  "children": [
+                    {
+                      "type": "h3",
+                      "children": "Dark mode"
+                    }
+                  ]
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.purple",
+                  "color": "light.green",
+                  "contrastTest": true,
+                  "children": "Assistant"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.purple",
+                  "color": "light.purple",
+                  "contrastTest": true,
+                  "children": "User"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.purple",
+                  "color": "brands.Sounds",
+                  "contrastTest": true,
+                  "children": "BBC Sounds"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.purple",
+                  "color": "brands.iPlayer",
+                  "contrastTest": true,
+                  "children": "BBC iPlayer"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.purple",
+                  "color": "brands.Sport",
+                  "contrastTest": true,
+                  "children": "BBC Sport"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "dark.green",
+                  "color": "brands.Sport",
+                  "contrastTest": true,
+                  "children": "BBC Sport"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "neutral.darkgrey",
+                  "color": "brands.Weather",
+                  "contrastTest": true,
+                  "children": "BBC Weather"
+                },
+                {
+                  "type": "colourComparisonSwatch",
+                  "backgroundColor": "neutral.darkgrey",
+                  "color": "brands.News",
+                  "contrastTest": true,
+                  "children": "BBC News"
                 }
               ]
             }

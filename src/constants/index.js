@@ -1,95 +1,101 @@
 export const sizes = {
-    large: {
-        name: "Large",
-        width: 1008,
-        height: 718
-    },
-    medium: {
-        name: "Medium",
-        width: 640,
-        height: 571
-    },
-    small: {
-        name: "Small",
-        width: 320,
-        height: 516
-    }
-}
+  large: {
+    name: "Large",
+    width: 1008,
+    height: 718
+  },
+  medium: {
+    name: "Medium",
+    width: 640,
+    height: 571
+  },
+  small: {
+    name: "Small",
+    width: 320,
+    height: 516
+  }
+};
 
-export const brandColors = {
+export const colors = {
+  light: {
+    purple: "#b849ff",
+    green: "#00efca",
+    orange: "#fd4b1f",
+    pink: "#f34b96",
+    yellow: "#ffd24d"
+  },
+  dark: {
+    purple: "#490c6e",
+    green: "#034752"
+  },
+  neutral: {
+    darkgrey: "#121212",
+    grey6: "#404040",
+    grey5: "#606060",
+    grey4: "#767676",
+    grey3: "#dcdcdc",
+    grey2: "#ededed",
+    grey1: "#f2f2f2",
+    white: "#ffffff"
+  },
+  brands: {
     Sounds: "#f54800",
     iPlayer: "#ed4a8f",
     Sport: "#ffd11f",
-    Weather: "#0e80b3"
-}
-
-export const colors = {
-    light: {
-        purple: "#b849ff",
-        green: "#00efca",
-        orange: "#fd4b1f",
-        pink: "#f34b96",
-        yellow: "#ffd24d"
-    },
-    dark: {
-        purple: "#490c6e",
-        green: "#034752"
-    },
-    text: {
-        white: "#FFFFFF",
-        darkgrey: "#121212"
-    }
+    Weather: "#0e80b3",
+    News: "#ba1b20"
+  }
 };
 
 export const printColors = {
-    dark: {
-        green: {
-            pantone: "7477 C",
-            cmyk: [86, 29, 21, 67]
-        },
-        purple: {
-            pantone: "268 C",
-            cmyk: [82, 98, 0, 12]
-        }
+  dark: {
+    green: {
+      pantone: "7477 C",
+      cmyk: [86, 29, 21, 67]
     },
-    light: {
-        green: {
-            pantone: "929 C",
-            cmyk: [48, 0, 25, 0]
-        },
-        purple: {
-            pantone: "814 C",
-            cmyk: [52, 66, 0, 0]
-        }
+    purple: {
+      pantone: "268 C",
+      cmyk: [82, 98, 0, 12]
     }
-}
+  },
+  light: {
+    green: {
+      pantone: "929 C",
+      cmyk: [48, 0, 25, 0]
+    },
+    purple: {
+      pantone: "814 C",
+      cmyk: [52, 66, 0, 0]
+    }
+  }
+};
 
 export const brandPresets = {
-    iPlayer: {
-        dark: [colors.dark.purple, brandColors.iPlayer],
-        light: [brandColors.iPlayer, colors.light.yellow]
-    },
-    Sounds: {
-        dark: [colors.dark.purple, brandColors.Sounds],
-        light: [brandColors.Sounds, colors.light.yellow]
-    },
-    Sport: {
-        dark: [colors.dark.green, brandColors.Sport],
-        light: [colors.light.purple, brandColors.Sport]
-    },
-    Weather: {
-        dark: [colors.dark.green, brandColors.Weather],
-        light: [colors.light.green, brandColors.Weather]
-    }
+  iPlayer: {
+    dark: [colors.dark.purple, colors.brands.iPlayer],
+    light: [colors.brands.iPlayer, colors.light.yellow]
+  },
+  Sounds: {
+    dark: [colors.dark.purple, colors.brands.Sounds],
+    light: [colors.brands.Sounds, colors.light.yellow]
+  },
+  Sport: {
+    dark: [colors.dark.green, colors.brands.Sport],
+    light: [colors.light.purple, colors.brands.Sport]
+  },
+  Weather: {
+    dark: [colors.dark.green, colors.brands.Weather],
+    light: [colors.light.green, colors.brands.Weather]
+  }
 };
 
 export const voicePresets = {
-    beeb: {
-        dark: [colors.dark.purple, colors.light.purple],
-        light: [colors.light.green, colors.light.purple]
-    },
-    user: {
-        dark: [colors.dark.purple, colors.light.green],
-        light: [colors.light.green, colors.dark.purple]
-    }
+  beeb: {
+    dark: [colors.dark.purple, colors.light.purple],
+    light: [colors.light.green, colors.light.purple]
+  },
+  user: {
+    dark: [colors.dark.purple, colors.light.green],
+    light: [colors.light.green, colors.dark.purple]
+  }
 };

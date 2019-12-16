@@ -11,7 +11,7 @@ import { Small } from "./blocks/Small";
 import { VideoWrapper } from "./blocks/VideoWrapper";
 import { Main } from "./blocks/Main";
 import { Aside } from "./blocks/Aside";
-import { ColourSwatch, Swatch } from "./blocks/Swatch";
+import { ColourSwatch, Swatch, ColourComparisonSwatch } from "./blocks/Swatch";
 
 const defaultSerializers = {
   h1: Type.H1,
@@ -31,6 +31,7 @@ const defaultSerializers = {
   colourSwatch: ColourSwatch,
   swatch: Swatch,
   colourPalette: ColourPalette,
+  colourComparisonSwatch: ColourComparisonSwatch,
   downArrow: DownArrow
 };
 

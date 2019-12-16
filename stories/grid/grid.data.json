@@ -78,7 +78,7 @@
         },
         {
           "type": "section",
-          "backgroundColor": "text.white",
+          "backgroundColor": "neutral.white",
           "children": [
             {
               "type": "header",
