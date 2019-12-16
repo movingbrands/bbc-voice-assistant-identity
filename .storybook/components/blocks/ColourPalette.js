@@ -30,9 +30,7 @@ export const ColourPalette = ({ children, ...rest }) => (
             const col = new Color(`${[p]}.${[k]}`);
             return (
               <ColourSwatch backgroundColor={col}>
-                <Type.P bold style={{ textTransform: "capitalize" }}>
-                  {k}
-                </Type.P>
+                <Type.P bold>{k}</Type.P>
                 <Type.P>Hex {col.hex}</Type.P>
                 <Type.P>RGB {col.rgb.join(" ")}</Type.P>
                 {col.printColors && (

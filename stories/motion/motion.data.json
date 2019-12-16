@@ -395,7 +395,7 @@
       ]
     },
     {
-      "title": "Emotive Responses - Groupings (WIP)",
+      "title": "Emotive Responses - Groupings",
       "type": "main",
       "children": [
         {
@@ -687,12 +687,16 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Active_Helping_+TEXT.mp4"
+                      "src": "/motion/emotive-responses/Active-Helping.mp4"
                     },
                     {
                       "type": "p",
                       "bold": true,
                       "children": "Helping"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium, Dense, Organic, Energetic"
                     }
                   ]
                 },
@@ -701,148 +705,16 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Active_Thinking+TEXT.mp4"
+                      "src": "/motion/emotive-responses/Active-Happy.mp4"
                     },
                     {
                       "type": "p",
                       "bold": true,
-                      "children": "Thinking"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "children": [
-                    {
-                      "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Active+TEXT-V01.mp4"
+                      "children": "Happy"
                     },
                     {
                       "type": "p",
-                      "bold": true,
-                      "children": "UNDEFINED"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Negative",
-      "type": "main",
-      "parent": "Motion Library",
-      "children": [
-        {
-          "type": "section",
-          "children": [
-            {
-              "type": "header",
-              "children": [
-                {
-                  "type": "h3",
-                  "children": [
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "Negative"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "grid",
-              "columns": 5,
-              "children": [
-                {
-                  "type": "box",
-                  "children": [
-                    {
-                      "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Negative+TEXT-V01.mp4"
-                    },
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "UNDEFINED"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "children": [
-                    {
-                      "type": "video",
-                      "src": "/motion/emotive-responses/teal/02_Error+TEXT-V01.mp4"
-                    },
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "Error"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Subdued",
-      "type": "main",
-      "parent": "Motion Library",
-      "children": [
-        {
-          "type": "section",
-          "children": [
-            {
-              "type": "header",
-              "children": [
-                {
-                  "type": "h3",
-                  "children": [
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "Subdued"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "grid",
-              "columns": 5,
-              "children": [
-                {
-                  "type": "box",
-                  "children": [
-                    {
-                      "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Subdued_Quiet.mp4"
-                    },
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "Quiet"
-                    }
-                  ]
-                },
-                {
-                  "type": "box",
-                  "children": [
-                    {
-                      "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Subdued_Tired.mp4"
-                    },
-                    {
-                      "type": "p",
-                      "bold": true,
-                      "children": "Tired"
+                      "children": "Medium, Dense, Organic, Energetic"
                     }
                   ]
                 }
@@ -884,12 +756,16 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Positive_Partying_+TEXT.mp4"
+                      "src": "/motion/emotive-responses/Positive-Excited.mp4"
                     },
                     {
                       "type": "p",
                       "bold": true,
-                      "children": "Partying"
+                      "children": "Helping"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium, Dense, Organic, Energetic"
                     }
                   ]
                 },
@@ -898,12 +774,52 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/teal/00_Positive_Sly-Cheeky+TEXT.mp4"
+                      "src": "/motion/emotive-responses/Positive-Laughing.mp4"
                     },
                     {
                       "type": "p",
                       "bold": true,
-                      "children": "Sly"
+                      "children": "Laughing"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium, Dense, Organic, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Positive-Partying.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Partying"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium, Dense, Organic, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Positive-Cheeky-Sly.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Cheeky"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium, Dense, Organic, Energetic"
                     }
                   ]
                 }
@@ -914,7 +830,7 @@
       ]
     },
     {
-      "title": "Transitions",
+      "title": "Subdued",
       "type": "main",
       "parent": "Motion Library",
       "children": [
@@ -930,7 +846,7 @@
                     {
                       "type": "p",
                       "bold": true,
-                      "children": "Transitions"
+                      "children": "Subdued"
                     }
                   ]
                 }
@@ -945,7 +861,268 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/transitions/00_Active_Transition+TEXT_V02.mp4"
+                      "src": "/motion/emotive-responses/Subdued-Quiet.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Quiet / Silent"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Small / Medium, Dense, Organic, Calm"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Subdued-Tired.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Tired"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Small / Medium, Dense, Organic, Calm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Passive",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Passive"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Passive-Thinking-Listening_01.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Thinking 1"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Small, Dense, Structured, Calm"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Passive-Thinking-Listening_02.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Thinking 2"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Small, Dense, Structured, Calm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Negative",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Negative"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Negative-Error.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Error"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Large, Dispersed, Structured, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Negative-Cancelled.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Cancelled"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Large, Dispersed, Structured, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Negative-Urgent.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Urgent"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Large, Dispersed, Structured, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Negative-Meltdown_1.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Meltdown"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Large, Dispersed, Structured, Energetic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous",
+      "type": "main",
+      "parent": "Motion Library",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Miscellaneous"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "columns": 5,
+              "children": [
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/User-Speech.mp4"
+                    },
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "User Speech"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Medium / Large, Quite dispersed, Organic, Energetic"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "children": [
+                    {
+                      "type": "video",
+                      "src": "/motion/emotive-responses/Transition-V01.mp4"
                     },
                     {
                       "type": "p",
@@ -959,7 +1136,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/transitions/00_Active_Transition+TEXT.mp4"
+                      "src": "/motion/emotive-responses/Transition-V02.mp4"
                     },
                     {
                       "type": "p",
@@ -973,7 +1150,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/transitions/04_Transition_Bright_Colour_03.mp4"
+                      "src": "/motion/emotive-responses/Transition-V03.mp4"
                     },
                     {
                       "type": "p",

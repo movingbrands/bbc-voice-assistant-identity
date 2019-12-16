@@ -94,7 +94,7 @@
                   "children": [
                     {
                       "type": "p",
-                      "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed on P17."
+                      "children": "We only use colour to indicate emotional states of the assistant in edge cases such as when serving sensitive news content. In those cases we use our Sensitive colour combinations detailed within 'Other Modes'."
                     }
                   ]
                 }
@@ -991,12 +991,12 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-1.svg"
+                      "src": "/colour/colour-subdued-1.jpg"
                     },
                     {
                       "type": "p",
                       "bold": true,
-                      "children": "Subdued Mode"
+                      "children": "Sleep Mode"
                     },
                     {
                       "type": "p",
@@ -1009,7 +1009,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-2.svg"
+                      "src": "/colour/colour-subdued-2.jpg"
                     },
                     {
                       "type": "p",
@@ -1027,7 +1027,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-3.svg"
+                      "src": "/colour/colour-subdued-3.jpg"
                     },
                     {
                       "type": "p",
@@ -1047,7 +1047,7 @@
       ]
     },
     {
-      "title": "Colour Contrast (WIP)",
+      "title": "Colour Contrast",
       "type": "main",
       "parent": "Accessibility",
       "children": [
