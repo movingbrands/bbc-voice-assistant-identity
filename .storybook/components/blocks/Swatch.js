@@ -46,7 +46,7 @@ ColourSwatch.defaultProps = {
 
 const StyledColourComparisonSwatch = styled.div`
   display: flex;
-  padding: 20px;
+  padding: 20px 0;
   & > ${Type.P} {
     margin-left: 10px;
   }
@@ -72,7 +72,7 @@ export const ColourComparisonSwatch = ({
       <MiniSwatch backgroundColor={bg} />
       <MiniSwatch backgroundColor={fg} />
       <Type.P>{children}</Type.P>
-      <Type.P>
+      <Type.P bold>
         {contrastTest
           ? compare(fg, bg, defaultWCAGContrastRatios).result
           : null}

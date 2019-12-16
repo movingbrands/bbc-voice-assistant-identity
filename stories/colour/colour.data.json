@@ -978,7 +978,7 @@
               "children": [
                 {
                   "type": "p",
-                  "children": "For a subdued mode, when the Assistant is yet to be woken, we can pair a Grey 6 Net with Dark Grey Background, after being woken by the User."
+                  "children": "‘For a subdued mode, when the Assistant is yet to be woken, we can pair a Grey 6 Net with Dark Grey Background."
                 }
               ]
             },
@@ -1018,7 +1018,7 @@
                     },
                     {
                       "type": "p",
-                      "children": "Teal Net floods the screen, in response to being woken up by User"
+                      "children": "Primary Light Green floods the screen, in response to being woken up by User"
                     }
                   ]
                 },
@@ -1036,7 +1036,7 @@
                     },
                     {
                       "type": "p",
-                      "children": "Purple Net on Teal background"
+                      "children": "Primary Light Purple Net on Primary Light Green background"
                     }
                   ]
                 }
@@ -1079,142 +1079,138 @@
               ]
             },
             {
-              "type": "section",
+              "type": "grid",
+              "columns": 2,
               "children": [
                 {
-                  "type": "header",
+                  "type": "box",
                   "children": [
                     {
                       "type": "h3",
                       "children": "Light mode"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "light.green",
+                      "color": "light.purple",
+                      "contrastTest": true,
+                      "children": "Assistant"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "light.green",
+                      "color": "dark.purple",
+                      "contrastTest": true,
+                      "children": "User"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "color": "brands.Sounds",
+                      "backgroundColor": "light.yellow",
+                      "contrastTest": true,
+                      "children": "BBC Sounds"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "brands.iPlayer",
+                      "color": "light.yellow",
+                      "contrastTest": true,
+                      "children": "BBC iPlayer"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "light.purple",
+                      "color": "brands.Sport",
+                      "contrastTest": true,
+                      "children": "BBC Sport"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "light.pink",
+                      "color": "brands.Sport",
+                      "contrastTest": true,
+                      "children": "BBC Sport"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "neutral.white",
+                      "color": "brands.Weather",
+                      "contrastTest": true,
+                      "children": "BBC Weather"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "neutral.grey1",
+                      "color": "brands.News",
+                      "contrastTest": true,
+                      "children": "BBC News"
                     }
                   ]
                 },
                 {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "light.purple",
-                  "color": "light.green",
-                  "contrastTest": true,
-                  "children": "Assistant"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "light.purple",
-                  "color": "dark.purple",
-                  "contrastTest": true,
-                  "children": "User"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "color": "brands.Sounds",
-                  "backgroundColor": "light.yellow",
-                  "contrastTest": true,
-                  "children": "BBC Sounds"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "brands.iPlayer",
-                  "color": "light.yellow",
-                  "contrastTest": true,
-                  "children": "BBC iPlayer"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "light.purple",
-                  "color": "brands.Sport",
-                  "contrastTest": true,
-                  "children": "BBC Sport"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "light.pink",
-                  "color": "brands.Sport",
-                  "contrastTest": true,
-                  "children": "BBC Sport"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "neutral.white",
-                  "color": "brands.Weather",
-                  "contrastTest": true,
-                  "children": "BBC Weather"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "neutral.grey1",
-                  "color": "brands.News",
-                  "contrastTest": true,
-                  "children": "BBC News"
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "children": [
-                {
-                  "type": "header",
+                  "type": "box",
                   "children": [
                     {
                       "type": "h3",
                       "children": "Dark mode"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.purple",
+                      "color": "light.green",
+                      "contrastTest": true,
+                      "children": "Assistant"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.purple",
+                      "color": "light.purple",
+                      "contrastTest": true,
+                      "children": "User"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.purple",
+                      "color": "brands.Sounds",
+                      "contrastTest": true,
+                      "children": "BBC Sounds"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.purple",
+                      "color": "brands.iPlayer",
+                      "contrastTest": true,
+                      "children": "BBC iPlayer"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.purple",
+                      "color": "brands.Sport",
+                      "contrastTest": true,
+                      "children": "BBC Sport"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "dark.green",
+                      "color": "brands.Sport",
+                      "contrastTest": true,
+                      "children": "BBC Sport"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "neutral.darkgrey",
+                      "color": "brands.Weather",
+                      "contrastTest": true,
+                      "children": "BBC Weather"
+                    },
+                    {
+                      "type": "colourComparisonSwatch",
+                      "backgroundColor": "neutral.darkgrey",
+                      "color": "brands.News",
+                      "contrastTest": true,
+                      "children": "BBC News"
                     }
                   ]
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.purple",
-                  "color": "light.green",
-                  "contrastTest": true,
-                  "children": "Assistant"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.purple",
-                  "color": "light.purple",
-                  "contrastTest": true,
-                  "children": "User"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.purple",
-                  "color": "brands.Sounds",
-                  "contrastTest": true,
-                  "children": "BBC Sounds"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.purple",
-                  "color": "brands.iPlayer",
-                  "contrastTest": true,
-                  "children": "BBC iPlayer"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.purple",
-                  "color": "brands.Sport",
-                  "contrastTest": true,
-                  "children": "BBC Sport"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "dark.green",
-                  "color": "brands.Sport",
-                  "contrastTest": true,
-                  "children": "BBC Sport"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "neutral.darkgrey",
-                  "color": "brands.Weather",
-                  "contrastTest": true,
-                  "children": "BBC Weather"
-                },
-                {
-                  "type": "colourComparisonSwatch",
-                  "backgroundColor": "neutral.darkgrey",
-                  "color": "brands.News",
-                  "contrastTest": true,
-                  "children": "BBC News"
                 }
               ]
             }
