@@ -12,6 +12,7 @@ import { VideoWrapper } from "./blocks/VideoWrapper";
 import { Main } from "./blocks/Main";
 import { Aside } from "./blocks/Aside";
 import { ColourSwatch, Swatch, ColourComparisonSwatch } from "./blocks/Swatch";
+import { MinimDiagram } from "./blocks/MinimDiagram";
 
 const defaultSerializers = {
   h1: Type.H1,
@@ -32,7 +33,8 @@ const defaultSerializers = {
   swatch: Swatch,
   colourPalette: ColourPalette,
   colourComparisonSwatch: ColourComparisonSwatch,
-  downArrow: DownArrow
+  downArrow: DownArrow,
+  minimDiagram: MinimDiagram
 };
 
 export default defaultSerializers;

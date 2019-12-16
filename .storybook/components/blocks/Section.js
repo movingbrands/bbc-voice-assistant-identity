@@ -5,10 +5,9 @@ import { colors } from "Constants";
 
 import { dynamicColourStyles } from "../../utils/styledUtils";
 import { Color } from "Utils/Color";
-import { Video } from "./Video";
-import { Image } from "./Image";
+import { Asset } from "./Asset";
 
-const StyledBackground = styled.div`
+export const Background = styled.div`
   width: 100%;
   height: 100%;
   position: absolute;
@@ -29,9 +28,6 @@ const StyledSection = styled.section`
   ${props => `justify-content: ${props.align}`};
 `;
 
-const Asset = props =>
-  props.type === "video" ? <Video {...props} /> : <Image {...props} />;
-
 export const Section = ({
   children,
   align,
@@ -46,9 +42,9 @@ export const Section = ({
       color={bg.isDark ? colors.neutral.white : colors.neutral.darkgrey}
     >
       {backgroundAsset && (
-        <StyledBackground backgroundColor={bg}>
+        <Background backgroundColor={bg}>
           <Asset {...backgroundAsset} />
-        </StyledBackground>
+        </Background>
       )}
       {children}
     </StyledSection>
