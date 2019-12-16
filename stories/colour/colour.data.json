@@ -956,7 +956,7 @@
       ]
     },
     {
-      "title": "Subdued mode",
+      "title": "Sleep mode",
       "type": "main",
       "parent": "Other modes",
       "children": [
@@ -969,7 +969,7 @@
                 {
                   "type": "h2",
                   "bold": "true",
-                  "children": "Subdued mode"
+                  "children": "Sleep mode"
                 }
               ]
             },
