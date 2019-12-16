@@ -1,237 +1,237 @@
 {
-    "title": "User Journeys",
-    "pages": [
+  "title": "User Journeys",
+  "pages": [
+    {
+      "title": "Overview",
+      "type": "main",
+      "children": [
         {
-            "title": "Overview",
-            "type": "main",
-            "children": [
+          "type": "section",
+          "align": "center",
+          "backgroundColor": "light.pink",
+          "backgroundAsset": {
+            "type": "image",
+            "src": "/user-journeys/user-journeys-divider.jpg"
+          },
+          "children": [
+            {
+              "type": "header",
+              "children": [
                 {
-                    "type": "section",
-                    "align": "center",
-                    "backgroundColor": "light.pink",
-                    "backgroundAsset": {
-                        "type": "image",
-                        "src": "/user-journeys/user-journeys-divider.jpg"
-                    },
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h1",
-                                    "children": "User Journeys"
-                                }
-                            ]
-                        }
-                    ]
+                  "type": "h1",
+                  "children": "User Journeys"
                 }
-            ]
-        },
-        {
-            "title": "Personal Stream",
-            "parent": "Journeys",
-            "type": "main",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": "Personal Stream"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_01.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Direct Search & Third Party TV Content",
-            "type": "main",
-            "parent": "Journeys",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": "Direct Search & Third Party TV Content"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_02.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Focus Change",
-            "type": "main",
-            "parent": "Journeys",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": "Focus Change"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_03b.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Reduced Motion - Personal Stream",
-            "type": "main",
-            "parent": "Journeys",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Reduced Motion"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Personal Stream"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_04a.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Reduced Motion - Third Party TV Content",
-            "type": "main",
-            "parent": "Journeys",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": [
-                                        {
-                                            "type": "p",
-                                            "bold": true,
-                                            "children": "Reduced Motion"
-                                        },
-                                        {
-                                            "type": "p",
-                                            "children": "Third Party TV Content"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_04b.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Direct Search on TV Platform",
-            "type": "main",
-            "parent": "Journeys",
-            "children": [
-                {
-                    "type": "section",
-                    "children": [
-                        {
-                            "type": "header",
-                            "children": [
-                                {
-                                    "type": "h3",
-                                    "children": "Direct Search on TV Platform"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "videoWrapper",
-                            "children": [
-                                {
-                                    "type": "video",
-                                    "controls": true,
-                                    "src": "/user-journeys/BBC_User_Journey_05.mp4"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "Personal Stream",
+      "parent": "Journeys",
+      "type": "main",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": "Personal Stream"
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC-User-Journey-01.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Direct Search & Third Party TV Content",
+      "type": "main",
+      "parent": "Journeys",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": "Direct Search & Third Party TV Content"
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC-User-Journey-02-16x9.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Focus Change",
+      "type": "main",
+      "parent": "Journeys",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": "Focus Change"
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC_User_Journey_03b.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reduced Motion - Personal Stream",
+      "type": "main",
+      "parent": "Journeys",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Reduced Motion"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Personal Stream"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC-User-Journey-01-STATIC-NET.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reduced Motion - Third Party TV Content",
+      "type": "main",
+      "parent": "Journeys",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": [
+                    {
+                      "type": "p",
+                      "bold": true,
+                      "children": "Reduced Motion"
+                    },
+                    {
+                      "type": "p",
+                      "children": "Third Party TV Content"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC_User_Journey_04b.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Direct Search on TV Platform",
+      "type": "main",
+      "parent": "Journeys",
+      "children": [
+        {
+          "type": "section",
+          "children": [
+            {
+              "type": "header",
+              "children": [
+                {
+                  "type": "h3",
+                  "children": "Direct Search on TV Platform"
+                }
+              ]
+            },
+            {
+              "type": "videoWrapper",
+              "children": [
+                {
+                  "type": "video",
+                  "controls": true,
+                  "src": "/user-journeys/BBC_User_Journey_05.mp4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
