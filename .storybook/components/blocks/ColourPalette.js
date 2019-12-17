@@ -18,29 +18,27 @@ const H3 = styled(Type.H3)`
   text-transform: capitalize;
 `;
 
-// const palettes = ["light", "dark", "neutral"];
-
 export const palettes = {
   light: {
     purple: {
       label: "Primary",
-      name: "Purple"
+      name: "Light Purple"
     },
     green: {
       label: "Primary",
-      name: "Green"
+      name: "Light Green"
     },
     orange: {
       label: "Secondary",
-      name: "Orange"
+      name: "Light Orange"
     },
     pink: {
       label: "Secondary",
-      name: "Pink"
+      name: "Light Pink"
     },
     yellow: {
       label: "Secondary",
-      name: "Yellow"
+      name: "Light Yellow"
     }
   },
   dark: {
