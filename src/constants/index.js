@@ -30,13 +30,13 @@ export const colors = {
   },
   neutral: {
     darkgrey: "#121212",
-    grey6: "#404040",
-    grey5: "#606060",
-    grey4: "#767676",
-    grey3: "#dcdcdc",
-    grey2: "#ededed",
-    grey1: "#f2f2f2",
-    white: "#ffffff"
+    grey6: "#8A9492",
+    grey5: "#97A6A3",
+    grey4: "#A5B7B4",
+    grey3: "#C1DAD5",
+    grey2: "#D8E5E2",
+    grey1: "#EFEFEF",
+    white: "#FFFFFF"
   },
   brands: {
     Sounds: "#f54800",
