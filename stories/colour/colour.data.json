@@ -370,7 +370,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-neutral-bbc-news.jpg"
+                      "src": "/colour/colour-light-neutral-bbc-news-1.jpg"
                     },
                     {
                       "type": "p",
@@ -379,7 +379,7 @@
                     },
                     {
                       "type": "p",
-                      "children": "Neutral Grey 2 background with News Red Net"
+                      "children": "Neutral Grey 1 background with News Red Net"
                     }
                   ]
                 }
@@ -991,7 +991,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-1.jpg"
+                      "src": "/colour/colour-sleep-mode-1.jpg"
                     },
                     {
                       "type": "p",
@@ -1009,7 +1009,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-2.jpg"
+                      "src": "/colour/colour-sleep-mode-2.jpg"
                     },
                     {
                       "type": "p",
@@ -1027,7 +1027,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-subdued-3.jpg"
+                      "src": "/colour/colour-sleep-mode-3.jpg"
                     },
                     {
                       "type": "p",
