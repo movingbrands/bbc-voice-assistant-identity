@@ -20,46 +20,25 @@ const H3 = styled(Type.H3)`
 
 export const palettes = {
   light: {
-    purple: {
-      label: "Primary",
-      name: "Light Purple"
-    },
-    green: {
-      label: "Primary",
-      name: "Light Green"
-    },
-    orange: {
-      label: "Secondary",
-      name: "Light Orange"
-    },
-    pink: {
-      label: "Secondary",
-      name: "Light Pink"
-    },
-    yellow: {
-      label: "Secondary",
-      name: "Light Yellow"
-    }
+    purple: "Primary Light Purple",
+    green: "Primary Light Green",
+    orange: "Secondary Light Orange",
+    pink: "Secondary Light Pink",
+    yellow: "Secondary Light Yellow"
   },
   dark: {
-    purple: {
-      label: "Primary",
-      name: "Dark Purple"
-    },
-    green: {
-      label: "Primary",
-      name: "Dark Green"
-    }
+    purple: "Primary Dark Purple",
+    green: "Primary Dark Green"
   },
   neutral: {
-    darkgrey: { name: "Dark Grey" },
-    grey6: { name: "Grey 6" },
-    grey5: { name: "Grey 5" },
-    grey4: { name: "Grey 4" },
-    grey3: { name: "Grey 3" },
-    grey2: { name: "Grey 2" },
-    grey1: { name: "Grey 1" },
-    white: { name: "White" }
+    darkgrey: "Dark Grey",
+    grey6: "Grey 6",
+    grey5: "Grey 5",
+    grey4: "Grey 4",
+    grey3: "Grey 3",
+    grey2: "Grey 2",
+    grey1: "Grey 1",
+    white: "White"
   }
 };
 
@@ -71,11 +50,9 @@ export const ColourPalette = ({ children, ...rest }) => (
         <Grid>
           {Object.keys(palettes[p]).map(k => {
             const col = new Color(`${[p]}.${[k]}`);
-            const { name, label } = palettes[p][k];
             return (
               <ColourSwatch backgroundColor={col}>
-                <Type.P bold>{name}</Type.P>
-                {label ? <Type.P bold>{label}</Type.P> : null}
+                <Type.P bold>{palettes[p][k]}</Type.P>
                 <Type.P>Hex {col.hex}</Type.P>
                 <Type.P>RGB {col.rgb.join(" ")}</Type.P>
                 {col.printColors && (
