@@ -14,6 +14,9 @@ addParameters({
     sidebarAnimations: false
   }
 });
+
+// the Net prototype folder has a few different stories in, so we'll import
+// all files in there which end with '.story.js'
 const netStories = require.context(
   "../stories/net-prototype",
   true,
