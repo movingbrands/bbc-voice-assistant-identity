@@ -39,7 +39,7 @@ Content is contained in JSON files for each story. The structure is essentially 
 
 The contents are then passed through the [`<ContentSerializer/>`](./.storybook/components/ContentSerializer.js) component which recursively matches the `type` to a specific component as defined in [`defaultSerializers.js`](./.storybook/components/defaultSerializers.js).
 
-This means that the example is serialized into the following React code:
+This means that the example JSON snippet above generates the following React code:
 
 ```jsx
 <Header>
