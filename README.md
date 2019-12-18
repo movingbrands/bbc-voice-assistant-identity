@@ -64,7 +64,7 @@ const serializers = {
 
 The [blocks](./.storybook/components/blocks/) folder contains all the current components.
 
-#### Example usage
+#### Example usage with Storybook
 
 ```js
 import React from "react";
