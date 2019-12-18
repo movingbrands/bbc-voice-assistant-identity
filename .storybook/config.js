@@ -8,12 +8,17 @@ addParameters({
   options: {
     theme,
     showPanel: true,
-    panelPosition: "right",
+    panelPosition: "bottom",
     hierarchySeparator: /\/|\./,
     hierarchyRootSeparator: /\|/,
     sidebarAnimations: false
   }
 });
+const netStories = require.context(
+  "../stories/net-prototype",
+  true,
+  /\.story\.js$/
+);
 
 configure(() => {
   require("../stories/introduction/introduction.story");
@@ -22,4 +27,5 @@ configure(() => {
   require("../stories/grid/grid.story");
   require("../stories/typography/typography.story");
   require("../stories/user-journeys/user-journeys.story");
+  netStories.keys().forEach(filename => netStories(filename));
 }, module);
