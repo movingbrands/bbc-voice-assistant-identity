@@ -13,7 +13,56 @@ Each of the sections of the guidelines is defined in [/stories](./stories) as a 
 
 ### Content
 
-Content is contained in JSON files for each story. The structure is essentially a serialized React tree with some customisation to make it fit well with Storybook. Each level usually has a `type` field in each level of the tree. the contents are then passed through the [`<ContentSerializer/>`](./.storybook/components/ContentSerializer.js) component which recursively matches the `type` to a specific component as defined in [`defaultSerializers.js`](./.storybook/components/defaultSerializers.js).
+Content is contained in JSON files for each story. The structure is essentially a serialized React tree with some customisation to make it fit well with Storybook. Each level usually has a `type` field, for example:
+
+```json
+{
+  "type": "header",
+  "children": [
+    {
+      "type": "p",
+      "children": [
+        {
+          "type": "h3",
+          "bold": true,
+          "children": "BBC Voice Assistant"
+        },
+        {
+          "type": "h1",
+          "children": "Introduction"
+        }
+      ]
+    }
+  ]
+}
+```
+
+The contents are then passed through the [`<ContentSerializer/>`](./.storybook/components/ContentSerializer.js) component which recursively matches the `type` to a specific component as defined in [`defaultSerializers.js`](./.storybook/components/defaultSerializers.js).
+
+This means that the example is serialized into the following React code:
+
+```jsx
+<Header>
+  <P>
+    <H3 bold>BBC Voice Assistant</H3>
+    <H1>Introduction</H1>
+  </P>
+</Header>
+```
+
+This assumes that we have the following serializers available:
+
+```js
+const serializers = {
+  header: Header,
+  p: Typography.P,
+  h2: Typography.H1,
+  h3: Typography.H3
+  // ...other components
+};
+```
+
+The [blocks](./.storybook/components/blocks/) folder contains all the current components.
 
 #### Example usage
 
