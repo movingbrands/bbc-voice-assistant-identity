@@ -13,7 +13,7 @@ Each of the sections of the guidelines is defined in [/stories](./stories) as a 
 
 ### Content
 
-Content is contained in JSON files for each story. The structure is essentially a serialized React tree with some customisation to make it fit well with Storybook. Each level usually has a `type` field, for example:
+Content is contained in JSON files for each story. The structure is essentially a serialized React tree with some customisation to make it fit well with Storybook. Each level usually has a `type` field and a `children` field (array of elements or a string for text), for example:
 
 ```json
 {
@@ -56,7 +56,7 @@ This assumes that we have the following serializers available:
 const serializers = {
   header: Header,
   p: Typography.P,
-  h2: Typography.H1,
+  h1: Typography.H1,
   h3: Typography.H3
   // ...other components
 };
