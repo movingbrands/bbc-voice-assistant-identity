@@ -192,7 +192,7 @@ npm run build:library
 npm run build:storybook
 ```
 
-####Remove built files and folders
+#### Remove built files and folders
 
 ```bash
 npm run clean
