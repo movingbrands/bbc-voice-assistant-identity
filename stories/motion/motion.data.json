@@ -11,7 +11,7 @@
           "backgroundColor": "light.purple",
           "backgroundAsset": {
             "type": "video",
-            "src": "/motion/motion-divider.mp4"
+            "src": "/assets/motion/motion-divider.mp4"
           },
           "children": [
             {
@@ -215,7 +215,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-too-dense.mp4"
+                      "src": "/assets/motion/density-and-size/motion-too-dense.mp4"
                     },
                     {
                       "type": "p",
@@ -244,7 +244,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-dense.mp4"
+                      "src": "/assets/motion/density-and-size/motion-dense.mp4"
                     },
                     {
                       "type": "p",
@@ -273,7 +273,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-quite-dense.mp4"
+                      "src": "/assets/motion/density-and-size/motion-quite-dense.mp4"
                     },
                     {
                       "type": "p",
@@ -299,7 +299,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-medium-density.mp4"
+                      "src": "/assets/motion/density-and-size/motion-medium-density.mp4"
                     },
                     {
                       "type": "p",
@@ -317,7 +317,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-quite-dispersed.mp4"
+                      "src": "/assets/motion/density-and-size/motion-quite-dispersed.mp4"
                     },
                     {
                       "type": "p",
@@ -338,7 +338,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-dispersed.mp4"
+                      "src": "/assets/motion/density-and-size/motion-dispersed.mp4"
                     },
                     {
                       "type": "p",
@@ -367,7 +367,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/density-and-size/motion-too-dispersed.mp4"
+                      "src": "/assets/motion/density-and-size/motion-too-dispersed.mp4"
                     },
                     {
                       "type": "p",
@@ -687,7 +687,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Active-Helping.mp4"
+                      "src": "/assets/motion/emotive-responses/Active-Helping.mp4"
                     },
                     {
                       "type": "p",
@@ -705,7 +705,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Active-Happy.mp4"
+                      "src": "/assets/motion/emotive-responses/Active-Happy.mp4"
                     },
                     {
                       "type": "p",
@@ -756,7 +756,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Positive-Excited.mp4"
+                      "src": "/assets/motion/emotive-responses/Positive-Excited.mp4"
                     },
                     {
                       "type": "p",
@@ -774,7 +774,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Positive-Laughing.mp4"
+                      "src": "/assets/motion/emotive-responses/Positive-Laughing.mp4"
                     },
                     {
                       "type": "p",
@@ -792,7 +792,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Positive-Partying.mp4"
+                      "src": "/assets/motion/emotive-responses/Positive-Partying.mp4"
                     },
                     {
                       "type": "p",
@@ -810,7 +810,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Positive-Cheeky-Sly.mp4"
+                      "src": "/assets/motion/emotive-responses/Positive-Cheeky-Sly.mp4"
                     },
                     {
                       "type": "p",
@@ -861,7 +861,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Subdued-Quiet.mp4"
+                      "src": "/assets/motion/emotive-responses/Subdued-Quiet.mp4"
                     },
                     {
                       "type": "p",
@@ -879,7 +879,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Subdued-Tired.mp4"
+                      "src": "/assets/motion/emotive-responses/Subdued-Tired.mp4"
                     },
                     {
                       "type": "p",
@@ -930,7 +930,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Passive-Thinking-Listening_01.mp4"
+                      "src": "/assets/motion/emotive-responses/Passive-Thinking-Listening_01.mp4"
                     },
                     {
                       "type": "p",
@@ -948,7 +948,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Passive-Thinking-Listening_02.mp4"
+                      "src": "/assets/motion/emotive-responses/Passive-Thinking-Listening_02.mp4"
                     },
                     {
                       "type": "p",
@@ -999,7 +999,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Negative-Error.mp4"
+                      "src": "/assets/motion/emotive-responses/Negative-Error.mp4"
                     },
                     {
                       "type": "p",
@@ -1017,7 +1017,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Negative-Cancelled.mp4"
+                      "src": "/assets/motion/emotive-responses/Negative-Cancelled.mp4"
                     },
                     {
                       "type": "p",
@@ -1035,7 +1035,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Negative-Urgent.mp4"
+                      "src": "/assets/motion/emotive-responses/Negative-Urgent.mp4"
                     },
                     {
                       "type": "p",
@@ -1053,7 +1053,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Negative-Meltdown_1.mp4"
+                      "src": "/assets/motion/emotive-responses/Negative-Meltdown_1.mp4"
                     },
                     {
                       "type": "p",
@@ -1104,7 +1104,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/User-Speech.mp4"
+                      "src": "/assets/motion/emotive-responses/User-Speech.mp4"
                     },
                     {
                       "type": "p",
@@ -1122,7 +1122,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Transition-V01.mp4"
+                      "src": "/assets/motion/emotive-responses/Transition-V01.mp4"
                     },
                     {
                       "type": "p",
@@ -1136,7 +1136,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Transition-V02.mp4"
+                      "src": "/assets/motion/emotive-responses/Transition-V02.mp4"
                     },
                     {
                       "type": "p",
@@ -1150,7 +1150,7 @@
                   "children": [
                     {
                       "type": "video",
-                      "src": "/motion/emotive-responses/Transition-V03.mp4"
+                      "src": "/assets/motion/emotive-responses/Transition-V03.mp4"
                     },
                     {
                       "type": "p",
@@ -1200,7 +1200,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-positive.jpg"
+                      "src": "/assets/motion/reduced-motion-positive.jpg"
                     },
                     {
                       "type": "p",
@@ -1214,7 +1214,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-passive.jpg"
+                      "src": "/assets/motion/reduced-motion-passive.jpg"
                     },
                     {
                       "type": "p",
@@ -1228,7 +1228,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-negative.jpg"
+                      "src": "/assets/motion/reduced-motion-negative.jpg"
                     },
                     {
                       "type": "p",
@@ -1242,7 +1242,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-active.jpg"
+                      "src": "/assets/motion/reduced-motion-active.jpg"
                     },
                     {
                       "type": "p",
@@ -1256,7 +1256,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-subdued.jpg"
+                      "src": "/assets/motion/reduced-motion-subdued.jpg"
                     },
                     {
                       "type": "p",
@@ -1270,7 +1270,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/motion/reduced-motion-user-talking.jpg"
+                      "src": "/assets/motion/reduced-motion-user-talking.jpg"
                     },
                     {
                       "type": "p",

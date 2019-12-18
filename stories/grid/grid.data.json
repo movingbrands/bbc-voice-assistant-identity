@@ -11,7 +11,7 @@
           "backgroundColor": "dark.green",
           "backgroundAsset": {
             "type": "image",
-            "src": "/grid/grid-divider.jpg"
+            "src": "/assets/grid/grid-divider.jpg"
           },
           "children": [
             {
@@ -121,7 +121,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-overview.jpg"
+                      "src": "/assets/grid/grid-overview.jpg"
                     }
                   ]
                 }
@@ -160,7 +160,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-small.jpg"
+                  "src": "/assets/grid/grid-small.jpg"
                 },
                 {
                   "type": "p",
@@ -181,7 +181,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-large.jpg"
+                  "src": "/assets/grid/grid-large.jpg"
                 },
                 {
                   "type": "p",
@@ -202,7 +202,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-medium.jpg"
+                  "src": "/assets/grid/grid-medium.jpg"
                 },
                 {
                   "type": "p",
@@ -248,7 +248,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-typography-small.jpg"
+                  "src": "/assets/grid/grid-typography-small.jpg"
                 },
                 {
                   "type": "p",
@@ -280,7 +280,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-typography-large.jpg"
+                  "src": "/assets/grid/grid-typography-large.jpg"
                 },
                 {
                   "type": "p",
@@ -312,7 +312,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/grid/grid-typography-medium.jpg"
+                  "src": "/assets/grid/grid-typography-medium.jpg"
                 },
                 {
                   "type": "p",
@@ -388,7 +388,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-1-small.jpg"
+                      "src": "/assets/grid/grid-motion-1-small.jpg"
                     }
                   ]
                 },
@@ -400,7 +400,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-1-large.jpg"
+                      "src": "/assets/grid/grid-motion-1-large.jpg"
                     }
                   ]
                 },
@@ -412,7 +412,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-1-medium.jpg"
+                      "src": "/assets/grid/grid-motion-1-medium.jpg"
                     }
                   ]
                 }
@@ -452,7 +452,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-2-small.jpg"
+                      "src": "/assets/grid/grid-motion-2-small.jpg"
                     }
                   ]
                 },
@@ -464,7 +464,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-2-large.jpg"
+                      "src": "/assets/grid/grid-motion-2-large.jpg"
                     }
                   ]
                 },
@@ -476,7 +476,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/grid/grid-motion-2-medium.jpg"
+                      "src": "/assets/grid/grid-motion-2-medium.jpg"
                     }
                   ]
                 }

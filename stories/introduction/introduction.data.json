@@ -12,7 +12,7 @@
           "backgroundColor": "dark.purple",
           "backgroundAsset": {
             "type": "image",
-            "src": "/introduction/introduction-divider.jpg"
+            "src": "/assets/introduction/introduction-divider.jpg"
           },
           "children": [
             {
@@ -146,7 +146,7 @@
               },
               "backgroundAsset": {
                 "type": "image",
-                "src": "/introduction/minim-diagram.jpg"
+                "src": "/assets/introduction/minim-diagram.jpg"
               }
             }
           ]

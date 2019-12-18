@@ -11,7 +11,7 @@
           "backgroundColor": "light.orange",
           "backgroundAsset": {
             "type": "image",
-            "src": "/typography/typography-divider.jpg"
+            "src": "/assets/typography/typography-divider.jpg"
           },
           "children": [
             {
@@ -114,7 +114,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-reith-sans-medium.jpg"
+                  "src": "/assets/typography/typography-reith-sans-medium.jpg"
                 },
                 {
                   "type": "p",
@@ -132,7 +132,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-reith-sans-italic.jpg"
+                  "src": "/assets/typography/typography-reith-sans-italic.jpg"
                 },
                 {
                   "type": "p",
@@ -192,7 +192,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-size-small.jpg"
+                  "src": "/assets/typography/typography-size-small.jpg"
                 },
                 {
                   "type": "p",
@@ -209,7 +209,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-size-medium.jpg"
+                  "src": "/assets/typography/typography-size-medium.jpg"
                 },
                 {
                   "type": "p",
@@ -226,7 +226,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-size-large.jpg"
+                  "src": "/assets/typography/typography-size-large.jpg"
                 },
                 {
                   "type": "p",
@@ -243,7 +243,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-size-extralarge.jpg"
+                  "src": "/assets/typography/typography-size-extralarge.jpg"
                 },
                 {
                   "type": "p",
@@ -281,7 +281,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-considerations-dialogue-and-content.jpg"
+                  "src": "/assets/typography/typography-considerations-dialogue-and-content.jpg"
                 },
                 {
                   "type": "p",
@@ -299,7 +299,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-considerations-ui-menus.jpg"
+                  "src": "/assets/typography/typography-considerations-ui-menus.jpg"
                 },
                 {
                   "type": "p",
@@ -317,7 +317,7 @@
               "children": [
                 {
                   "type": "image",
-                  "src": "/typography/typography-considerations-line-length.jpg"
+                  "src": "/assets/typography/typography-considerations-line-length.jpg"
                 },
                 {
                   "type": "p",

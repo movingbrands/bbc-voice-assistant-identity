@@ -9,8 +9,8 @@ const { copyFile } = require("./converters/copyFile");
 const { baseName } = require("./utils/fs");
 const gui = require("./utils/gui");
 
-const outputDirectory = path.resolve(__dirname, "../converted");
-const inputDirectory = path.resolve(__dirname, "../artwork");
+const outputDirectory = path.resolve(__dirname, "../../static/assets");
+const inputDirectory = path.resolve(__dirname, "../../assets");
 
 const converters = {
   jpg: convertImageForWeb,

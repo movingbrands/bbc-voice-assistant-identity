@@ -1,7 +1,7 @@
 {
   "name": "@movingbrands/bbc-voice-assistant-id",
   "version": "0.0.1",
-  "description": "Documentation and brand guidelines for BBC Voice Assistant identity system",
+  "description": "Documentation, prototypes and brand guidelines for BBC Voice Assistant identity system",
   "author": "Toby Milner-Gulland <tmgulland@movingbrands.com>",
   "license": "UNLICENSED",
   "private": true,
@@ -10,12 +10,12 @@
     "now-build": "npm run build",
     "build": "npm-run-all --serial clean:** lint build:**",
     "build:library": "webpack --mode production --config config/webpack.build.js",
-    "build:storybook": "build-storybook --static-dir ./static,./converted -o ./public",
+    "build:storybook": "build-storybook --static-dir ./static -o ./public",
     "clean:library": "rimraf dist",
     "clean:storybook": "rimraf storybook-static",
     "dev": "npm-run-all --parallel dev:**",
     "dev:library": "webpack --mode development --config config/webpack.dev.js --watch",
-    "dev:storybook": "start-storybook --static-dir ./static,./converted -p 6006",
+    "dev:storybook": "start-storybook --static-dir ./static -p 6006",
     "lint": "prettier src/**/*.js .storybook/**/*.js server/**/*.js --write"
   },
   "devDependencies": {
@@ -58,7 +58,6 @@
     "react": " ^16.9.0",
     "react-dom": "^16.9.0",
     "rimraf": "^3.0.0",
-    "static-auth": "^1.1.1",
     "styled-components": "^5.0.0-rc.2",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.39.2",
@@ -79,6 +78,7 @@
     }
   },
   "dependencies": {
-    "@ngard/tiny-get": "^1.2.2"
+    "@ngard/tiny-get": "^1.2.2",
+    "phenomenon": "^1.6.0"
   }
 }

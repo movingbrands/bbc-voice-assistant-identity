@@ -1,0 +1,15 @@
+{
+  "name": "generate-stills-example",
+  "version": "0.0.1",
+  "description": "Example of generating stills using Storybook and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "export": "node index.js"
+  },
+  "author": "Toby Milner-Gulland <tmgulland@movingbrands.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "puppeteer": "^2.0.0"
+  }
+}

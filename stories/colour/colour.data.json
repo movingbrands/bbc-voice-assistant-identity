@@ -11,7 +11,7 @@
           "backgroundColor": "light.green",
           "backgroundAsset": {
             "type": "image",
-            "src": "/colour/colour-divider.jpg"
+            "src": "/assets/colour/colour-divider.jpg"
           },
           "children": [
             {
@@ -178,7 +178,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-assistant.jpg"
+                      "src": "/assets/colour/colour-light-assistant.jpg"
                     },
                     {
                       "type": "p",
@@ -196,7 +196,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-user.jpg"
+                      "src": "/assets/colour/colour-light-user.jpg"
                     },
                     {
                       "type": "p",
@@ -256,7 +256,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-bbc-sounds.jpg"
+                      "src": "/assets/colour/colour-light-bbc-sounds.jpg"
                     },
                     {
                       "type": "p",
@@ -274,7 +274,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-bbc-iplayer.jpg"
+                      "src": "/assets/colour/colour-light-bbc-iplayer.jpg"
                     },
                     {
                       "type": "p",
@@ -292,7 +292,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-bbc-sport.jpg"
+                      "src": "/assets/colour/colour-light-bbc-sport.jpg"
                     },
                     {
                       "type": "p",
@@ -352,7 +352,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-neutral-bbc-weather.jpg"
+                      "src": "/assets/colour/colour-light-neutral-bbc-weather.jpg"
                     },
                     {
                       "type": "p",
@@ -370,7 +370,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-neutral-bbc-news-1.jpg"
+                      "src": "/assets/colour/colour-light-neutral-bbc-news-1.jpg"
                     },
                     {
                       "type": "p",
@@ -436,7 +436,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-netflix.jpg"
+                      "src": "/assets/colour/colour-light-netflix.jpg"
                     },
                     {
                       "type": "p",
@@ -450,7 +450,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-nhs.jpg"
+                      "src": "/assets/colour/colour-light-nhs.jpg"
                     },
                     {
                       "type": "p",
@@ -464,7 +464,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-premier-league.jpg"
+                      "src": "/assets/colour/colour-light-premier-league.jpg"
                     },
                     {
                       "type": "p",
@@ -478,7 +478,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-light-all4.jpg"
+                      "src": "/assets/colour/colour-light-all4.jpg"
                     },
                     {
                       "type": "p",
@@ -534,7 +534,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-assistant.jpg"
+                      "src": "/assets/colour/colour-dark-assistant.jpg"
                     },
                     {
                       "type": "p",
@@ -552,7 +552,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-user.jpg"
+                      "src": "/assets/colour/colour-dark-user.jpg"
                     },
                     {
                       "type": "p",
@@ -611,7 +611,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-bbc-sounds.jpg"
+                      "src": "/assets/colour/colour-dark-bbc-sounds.jpg"
                     },
                     {
                       "type": "p",
@@ -629,7 +629,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-bbc-iplayer.jpg"
+                      "src": "/assets/colour/colour-dark-bbc-iplayer.jpg"
                     },
                     {
                       "type": "p",
@@ -647,7 +647,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-bbc-sport.jpg"
+                      "src": "/assets/colour/colour-dark-bbc-sport.jpg"
                     },
                     {
                       "type": "p",
@@ -706,7 +706,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-bbc-weather.jpg"
+                      "src": "/assets/colour/colour-dark-bbc-weather.jpg"
                     },
                     {
                       "type": "p",
@@ -724,7 +724,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-bbc-news.jpg"
+                      "src": "/assets/colour/colour-dark-bbc-news.jpg"
                     },
                     {
                       "type": "p",
@@ -790,7 +790,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-third-parties-netflix.jpg"
+                      "src": "/assets/colour/colour-dark-third-parties-netflix.jpg"
                     },
                     {
                       "type": "p",
@@ -804,7 +804,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-third-parties-nhs.jpg"
+                      "src": "/assets/colour/colour-dark-third-parties-nhs.jpg"
                     },
                     {
                       "type": "p",
@@ -818,7 +818,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-third-parties-premier-league.jpg"
+                      "src": "/assets/colour/colour-dark-third-parties-premier-league.jpg"
                     },
                     {
                       "type": "p",
@@ -832,7 +832,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-dark-third-parties-all4.jpg"
+                      "src": "/assets/colour/colour-dark-third-parties-all4.jpg"
                     },
                     {
                       "type": "p",
@@ -882,7 +882,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sensitive-light-1.jpg"
+                      "src": "/assets/colour/colour-sensitive-light-1.jpg"
                     },
                     {
                       "type": "p",
@@ -900,7 +900,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sensitive-light-2.jpg"
+                      "src": "/assets/colour/colour-sensitive-light-2.jpg"
                     },
                     {
                       "type": "p",
@@ -918,7 +918,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sensitive-dark-1.jpg"
+                      "src": "/assets/colour/colour-sensitive-dark-1.jpg"
                     },
                     {
                       "type": "p",
@@ -936,7 +936,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sensitive-dark-2.jpg"
+                      "src": "/assets/colour/colour-sensitive-dark-2.jpg"
                     },
                     {
                       "type": "p",
@@ -991,7 +991,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sleep-mode-1.jpg"
+                      "src": "/assets/colour/colour-sleep-mode-1.jpg"
                     },
                     {
                       "type": "p",
@@ -1009,7 +1009,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sleep-mode-2.jpg"
+                      "src": "/assets/colour/colour-sleep-mode-2.jpg"
                     },
                     {
                       "type": "p",
@@ -1027,7 +1027,7 @@
                   "children": [
                     {
                       "type": "image",
-                      "src": "/colour/colour-sleep-mode-3.jpg"
+                      "src": "/assets/colour/colour-sleep-mode-3.jpg"
                     },
                     {
                       "type": "p",

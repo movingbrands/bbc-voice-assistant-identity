@@ -11,7 +11,7 @@
           "backgroundColor": "light.pink",
           "backgroundAsset": {
             "type": "image",
-            "src": "/user-journeys/user-journeys-divider.jpg"
+            "src": "/assets/user-journeys/user-journeys-divider.jpg"
           },
           "children": [
             {
@@ -50,7 +50,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC-User-Journey-01.mp4"
+                  "src": "/assets/user-journeys/BBC-User-Journey-01.mp4"
                 }
               ]
             }
@@ -81,7 +81,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC-User-Journey-02-16x9.mp4"
+                  "src": "/assets/user-journeys/BBC-User-Journey-02-16x9.mp4"
                 }
               ]
             }
@@ -112,7 +112,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC_User_Journey_03b.mp4"
+                  "src": "/assets/user-journeys/BBC_User_Journey_03b.mp4"
                 }
               ]
             }
@@ -153,7 +153,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC-User-Journey-01-STATIC-NET.mp4"
+                  "src": "/assets/user-journeys/BBC-User-Journey-01-STATIC-NET.mp4"
                 }
               ]
             }
@@ -194,7 +194,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC-User-Journey-02-16x9-STATIC-NET.mp4"
+                  "src": "/assets/user-journeys/BBC-User-Journey-02-16x9-STATIC-NET.mp4"
                 }
               ]
             }
@@ -225,7 +225,7 @@
                 {
                   "type": "video",
                   "controls": true,
-                  "src": "/user-journeys/BBC_User_Journey_05.mp4"
+                  "src": "/assets/user-journeys/BBC_User_Journey_05.mp4"
                 }
               ]
             }
