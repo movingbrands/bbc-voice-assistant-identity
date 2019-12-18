@@ -57,7 +57,6 @@ export const generateUniforms = (
     uMovement: uniform(movement, { transition: true }),
     uForegroundColor: uniform(foregroundColor, { transition: true })
   };
-  console.log(uniforms);
   return [
     uniforms,
     Object.keys(uniforms).filter(u => !!uniforms[u].updateValue)

@@ -95,7 +95,6 @@ export class Color {
     return result[0] * 0.2126 + result[1] * 0.7152 + result[2] * 0.0722;
   }
   get printColors() {
-    console.log(this.presetColor);
     const p = get(printColors, this.presetColor);
     return typeof p === "object" ? p : false;
   }
