@@ -41,15 +41,7 @@ npm run dev:storybook
 
 ## Net prototype
 
-This repository also contains a proof of concept for the implementation of the BBC Voice/Beeb identity system.
-
-It has been written primarily in Javascript/GLSL:
-
-- WebGL/GLSL for rendering dynamic patterns, using [`phenomenon`](https://github.com/vaneenige/phenomenon) as a wrapper for WebGL
-- [`react`](https://github.com/facebook/react) for components
-- [`styled-components`](https://github.com/styled-components/styled-components) for styling components
-- [`storybook`](https://storybook.js.org/) for documentation
-- `webpack` for building the library
+This repository also contains a proof of concept for the implementation of the dynamic Nets, using Javascript and GLSL shader code. The prototype uses [`phenomenon`](https://github.com/vaneenige/phenomenon) as a wrapper for WebGL.
 
 ### Outstanding areas for development
 
@@ -161,59 +153,63 @@ update("uForegroundColor", new Color("#FF2200"));
 #### Start development mode (runs dev:\*\* scripts)
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
 #### Development mode for Storybook
 
 ```bash
-    npm run dev:storybook
+npm run dev:storybook
 ```
 
 #### Development mode for library
 
 ```bash
-    npm run dev:library
+npm run dev:library
 ```
 
 #### Linting with prettier
 
 ```bash
-    npm run lint
+npm run lint
 ```
 
 #### Run all build scripts concurrently
 
 ```bash
-    npm build
+npm build
 ```
 
 #### Build the library (using [webpack.build.js](./config/webpack.build.js))
 
 ```bash
-    npm run build:library
+npm run build:library
 ```
 
 #### Export static Storybook to [storybook-static](./storybook-static)
 
 ```bash
-    npm run build:storybook
+npm run build:storybook
 ```
 
 ####Remove built files and folders
 
 ```bash
-    npm run clean
+npm run clean
 ```
 
 ### Configuration
 
 Webpack configuration files for development and build can be found in the [config][./config] folder
 
-### Tools
+## Tools
 
-#### Generate stills
+### Generate stills
 
-[tools/generateStills.js](./tools/generateStills.js) is a proof of concept script that uses Puppeteer to generate still Net assets in PNG format. It uses Storybook to render the Net component in isolation using the URL query to apply parameters. This script includes a sample array of presets for export.
+[generate-stills](./tools/generate-stills/index.js) is a proof of concept script that uses Puppeteer to generate still Net assets in PNG format. It uses Storybook to render the Net component in isolation using the URL query to apply parameters. This script includes a sample array of presets for export.
 
 An example set of stills can be seen in [exports](./exports).
+
+### Convert media
+
+[convert-media](./tools/convert-media/index.js) is a workflow script that takes the contents of the [assets](./assets) folder and exports and optimises them using [`sharp`](https://sharp.pixelplumbing.com/) and `ffmpeg`. It searches for `mp4`, `png`, `jpg`, `svg`, `mp3` and moves them to the [static](./static) folder where the Storybook build process them will include them in the built output.

@@ -2,7 +2,7 @@
   "name": "bbc-voice-assistant-id-tools",
   "version": "0.0.1",
   "scripts": {
-    "convert": "node convert"
+    "convert": "node index"
   },
   "author": "",
   "license": "ISC",
