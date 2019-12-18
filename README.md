@@ -17,13 +17,30 @@ Content is contained in JSON files for each story. The structure is essentially 
 
 It's straightforward to create new, custom React components to accommodate new types of content or design. The [blocks](./.storybook/components/blocks/) folder contains various examples of components. [`ColourPalette.js`](./.storybook/components/blocks/ColourPalette.js) shows an example of a component that is generated from brand colour values rather than specified in a JSON data file.
 
-Each individually story could alternatively be customised or written directly in React. Each story has a line which automatically adds Storybook sections based on the tree structure:
+Each individually story could alternatively be customised or written directly in React. Each story has a line which automatically adds Storybook sections on te :
 
 ```js
+import React from "react";
+import { storiesOf } from "@storybook/react";
+
+// import the data file we want to use
+import exampleData from "./example.data.json";
+
+// import our helpers
+import { parseDataToReact } from "Storybook/utils/parseDataToReact";
+import { generateStories } from "Storybook/utils/generators";
+
+// parse data to a React tree
+const { title, children } = parseDataToReact(exampleData);
+
+// create our story
+const stories = storiesOf(title, module);
+
+// use this utility to populate our stories
 generateStories(children, stories);
 ```
 
-You could either remove this line and write the `*.story.js` file. Stories can also be added to the section normally using `stories.add()` and `storiesOf()`.
+You can remove this line and write the `*.story.js` file in React code (this is how the [net-prototype](./stories/net-prototype) stories are written). Stories can also be added to the section normally using `stories.add()` and `storiesOf()`.
 
 ## Package scripts
 
