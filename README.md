@@ -1,4 +1,4 @@
-# BBC Voice Assitant Identity guidelines
+# BBC Voice Assistant Identity guidelines
 
 This codebase contains source code for the BBC Voice Assistant identity guidelines. It uses:
 
