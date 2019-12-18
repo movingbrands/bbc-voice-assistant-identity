@@ -84,7 +84,7 @@ const { title, children } = parseDataToReact(exampleData);
 const stories = storiesOf(title, module);
 
 // use this utility to populate our stories
-generateStories(children, stories);
+generateStories(children, stories, module);
 ```
 
 #### Adding new components

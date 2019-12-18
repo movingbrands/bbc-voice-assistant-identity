@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-export const generateStories = (children, stories) => {
+export const generateStories = (children, stories, module) => {
   children.forEach(entry => {
     if (!entry.parent) {
       stories.add(entry.storybookTitle, () => (
